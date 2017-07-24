@@ -22,6 +22,7 @@ var ViewModel = function () {
 
     // KO vars here
     this.locationsList = ko.observableArray([]);
+    this.addressSearch = ko.observable();
 
     // Create markers and Location models from
     // locations list. Extend map bounds to fit
@@ -35,6 +36,10 @@ var ViewModel = function () {
 
     this.recenterMap = function(clickedLocation) {
         setMapCenter(new google.maps.Marker({position: clickedLocation.coords()}));
+    };
+
+    this.searchAddress = function(address) {
+
     };
 };
 

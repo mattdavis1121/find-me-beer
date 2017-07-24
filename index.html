@@ -7,6 +7,10 @@
     </head>
     <body>
         <header>
+            <div id="address-search">
+                <input id="address-input" type="textbox" value="1639 Shadow Park Drive" data-bind="value: addressSearch">
+                <input type="button" value="Search" onclick="codeAddress()">
+            </div>
 
         </header>
         <aside id="sidenav">
@@ -20,7 +24,7 @@
 
         <!-- Load Google Maps -->
         <script
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI6tCaXEOAs5tttYSE-fk1ItkfxPCTRwk&v=3">
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI6tCaXEOAs5tttYSE-fk1ItkfxPCTRwk&v=3&libraries=places">
         </script>
         <script type="text/javascript" src="js/knockout-3.4.2.js"></script>
         <script type="text/javascript" src="js/map.js"></script>
