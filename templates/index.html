@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FSWD6 - Maps</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+
+            <aside id="sidenav">
+                <div id="logo">
+                    <h1>Find Me Beer</h1>
+                </div>
+                <hr>
+                <div id="search-options">
+                    <button type="button" id="current-loc-btn" onclick="geoLocate()">Use Current Location</button>
+                    <br>
+                    <span>--- OR ---</span>
+                    <div id="address-search">
+                        <input id="address-input" type="textbox" value="1639 Shadow Park Drive" data-bind="value: addressSearch">
+                        <input type="button" value="Search">
+                    </div>
+                </div>
+                <ul data-bind="foreach: locationsList">
+                    <li data-bind="text: title, click: $parent.recenterMap"></li>
+                </ul>
+            </aside>
+            <main id="map"></main>
+
+        </div>
+
+        <!-- Load Google Maps -->
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI6tCaXEOAs5tttYSE-fk1ItkfxPCTRwk&v=3&libraries=places">
+        </script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/knockout-3.4.2.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/breweryDB.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/map.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>
+    </body>
+</html>

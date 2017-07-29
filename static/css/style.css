@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+#logo {
+    padding: 0px 10px 0px;
+}
+
+#sidenav {
+    height: 100%;
+    width: 20%;
+}
+
+#map {
+    height: 100%;
+    width: 80%;
+}
+
+#address-search {
+    padding: 10px;
+}
+
+#address-input {
+    width: 100%;
+}
