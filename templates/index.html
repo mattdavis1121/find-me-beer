@@ -15,16 +15,16 @@
                 </div>
                 <hr>
                 <div id="search-options">
-                    <button type="button" id="current-loc-btn" onclick="geoLocate()">Use Current Location</button>
+                    <button type="button" id="current-loc-btn" data-bind="click: currentLocationClick">Use Current Location</button>
                     <br>
                     <span>--- OR ---</span>
                     <div id="address-search">
-                        <input id="address-input" type="textbox" value="1639 Shadow Park Drive" data-bind="value: addressSearch">
+                        <input id="address-input" type="textbox" data-bind="value: addressSearch">
                         <input type="button" value="Search">
                     </div>
                 </div>
                 <ul data-bind="foreach: locationsList">
-                    <li data-bind="text: title, click: $parent.recenterMap"></li>
+                    <li data-bind="text: name, click: $parent.recenterMap"></li>
                 </ul>
             </aside>
             <main id="map"></main>

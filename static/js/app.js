@@ -17,6 +17,27 @@ var Location = function (data) {
     });
 };
 
+var Brewery = function (data) {
+    var self = this;
+
+    this.name = ko.observable(data.brewery.name);
+    this.lat = ko.observable(data.latitude);
+    this.lng = ko.observable(data.longitude);
+    this.coords = ko.computed(function () {
+        return {lat: self.lat(), lng: self.lng()};
+    })
+    this.type = ko.observable(data.locationTypeDisplay);
+    this.phone = ko.observable(data.phone);
+    this.locality = ko.observable(data.locality);
+    this.region = ko.observable(data.region);
+    this.streetAddress = ko.observable(data.streetAddress);
+    this.postalCode = ko.observable(data.postalCode);
+    this.fullAddress = ko.computed(function () {
+        return self.streetAddress() + ', ' + self.locality() + ', ' + self.region() + ' ' + self.postalCode();
+    });
+    this.website = ko.observable(data.website);
+};
+
 var ViewModel = function () {
     var self = this;
 
@@ -27,6 +48,67 @@ var ViewModel = function () {
 
     this.recenterMap = function(clickedLocation) {
         setMapCenter(new google.maps.Marker({position: clickedLocation.coords()}));
+    };
+
+    this.getNearbyBreweries = function(position) {
+        var data = {
+            lat: position.lat,
+            lng: position.lng,
+            key: '57c867fabb0e35e3540fe6119f029846',
+            endpoint: '/search/geo/point'
+        };
+
+        $.ajax({
+            type: "POST",
+            dataType: "json",
+            url: "/proxy",
+            data: JSON.stringify(data),
+            success: function(breweryJSON) {
+                breweryJSON.data.forEach(function(breweryData) {
+                    var brewery = new Brewery(breweryData);
+                    self.locationsList.push(brewery);
+                    initMarker(brewery);
+                });
+            }
+        });
+    };
+
+    this.currentLocationClick = function() {
+        // 1. Get current location
+        // 2. Get breweries surrounding current location
+        // 3. Recenter map on current location
+        // 4. Display breweries on map
+
+        var pos = {}
+
+        // Get current location
+        navigator.geolocation.getCurrentPosition(function(position) {
+            pos = {
+                lat: position.coords.latitude,
+                lng: position.coords.longitude
+            };
+            console.log(pos);
+            map.setCenter(pos);
+            map.setZoom(14);
+            self.getNearbyBreweries(pos);
+
+            // Get address from current latlng and set search box
+            // geo.geocode({'location': pos}, function(results, status) {
+            //     if (status === 'OK') {
+            //         if (results[0]) {
+            //             // Set search box value to most specific address
+            //             // returned by reverse geocode. To set to less specific,
+            //             // use an index on results higher than 0.
+            //             // Example: results[1] = approx location, and results[2] =
+            //             // city, state.
+            //             input.value = results[0].formatted_address;
+            //         }
+            //     }
+            // });
+        });
+
+        // Get breweries surrounding current location
+
     };
 
     this.searchAddress = function(address) {
@@ -55,7 +137,7 @@ var ViewModel = function () {
     };
 
     this.getLocations = function() {
-        
+
     };
 };
 

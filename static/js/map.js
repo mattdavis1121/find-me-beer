@@ -38,11 +38,11 @@ function setMapCenter(location) {
     map.setZoom(preZoom);
 };
 
-function initMarker(locationModel) {
+function initMarker(breweryModel) {
     var marker = new google.maps.Marker({
         map: map,
-        position: locationModel.coords(),
-        title: locationModel.title(),
+        position: breweryModel.coords(),
+        title: breweryModel.name(),
         animation: google.maps.Animation.DROP
     });
     mapBounds.extend(marker.position);
@@ -68,7 +68,7 @@ function geoLocate() {
                 lng: position.coords.longitude
             };
             map.setCenter(pos);
-            map.setZoom(17);
+            map.setZoom(14);
 
             // Get address from current latlng and set search box
             geo.geocode({'location': pos}, function(results, status) {
