@@ -20,13 +20,23 @@ var Location = function (data) {
 var Brewery = function (data) {
     var self = this;
 
+    // id will be used to ensure breweries stored
+    // in memory are unique.
+    this.id = ko.observable(data.brewery.id);
+
+    // Various desriptors
     this.name = ko.observable(data.brewery.name);
+    this.description = ko.observable(data.brewery.description);
+    this.established = ko.observable(data.brewery.established);
+    this.type = ko.observable(data.locationTypeDisplay);
+
+    // Location data
     this.lat = ko.observable(data.latitude);
     this.lng = ko.observable(data.longitude);
     this.coords = ko.computed(function () {
         return {lat: self.lat(), lng: self.lng()};
     })
-    this.type = ko.observable(data.locationTypeDisplay);
+
     this.phone = ko.observable(data.phone);
     this.locality = ko.observable(data.locality);
     this.region = ko.observable(data.region);
@@ -36,6 +46,17 @@ var Brewery = function (data) {
         return self.streetAddress() + ', ' + self.locality() + ', ' + self.region() + ' ' + self.postalCode();
     });
     this.website = ko.observable(data.website);
+
+    // Images is an object containing various sizes of
+    // logos for the brewery. Common structure is...
+        // {icon: url, medium: url, large: url,
+        //  squareMedium: url, squareLarge: url}
+    // but none of these keys can be assumed to be present
+    // as not all breweries have logos.
+    this.images = ko.observable(data.brewery.images);
+
+    // Store an unshown marker for each brewery,
+    // then just toggle visible/hidden.
 };
 
 var ViewModel = function () {
