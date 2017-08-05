@@ -1,32 +1,121 @@
 html, body {
     height: 100%;
-    margin: 0;
-    padding: 0;
 }
 
-.container {
+.flex-container {
     display: flex;
     height: 100%;
 }
 
-#logo {
-    padding: 0px 10px 0px;
-}
-
 #sidenav {
     height: 100%;
-    width: 20%;
+    width: 25%;
+    background-color: #38423B;
+    color: #EDEDDC;
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+    margin: 5px;
+    margin-bottom: 0px;
 }
 
 #map {
     height: 100%;
-    width: 80%;
+    width: 75%;
+    margin-left: 25%;
+    position: relative;
 }
 
-#address-search {
-    padding: 10px;
+.search-options {
+    margin: 5%;
+}
+
+.search-buttons {
+    display: flex;
+    width: 100%;
+}
+
+.search-buttons button {
+    width: 50%;
+}
+
+#current-loc-btn {
+    background-color: #20FC8F;
+    color: #2D2D2A;
 }
 
 #address-input {
     width: 100%;
+    border: 0;
+    padding: 0;
+}
+
+.breweries {
+    width: 100%;
+    overflow-y: auto;
+}
+
+/*.breweries::-webkit-scrollbar {
+    width: .5em;
+    background-color: red;
+}
+
+.breweries::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.breweries::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}*/
+
+.brewery {
+    /*border-top: 2px solid #20FC8F;
+    border-bottom: 2px solid #20FC8F;*/
+    width: 100%;
+    font-family: 'Old Standard TT', serif;
+    background-color: #2D2D2A;
+    cursor: pointer;
+}
+
+.active-brewery {
+    background-color: #20FC8F;
+    color: #2D2D2A;
+}
+
+.brewery-content {
+    padding: 10px;
+    margin: 10px;
+}
+
+.brewery-name {
+    font-family: 'Cabin', sans-serif;
+    margin: 8px 0px;
+}
+
+/*These two rules set the margin for the first and last list entries
+so the scroll bar isn't hanging a few pixels off either end*/
+
+.brewery:first-of-type .brewery-content{
+    margin-top: 0;
+}
+
+.brewery:last-of-type .brewery-content{
+    margin-bottom: 0;
 }

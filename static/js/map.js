@@ -5,27 +5,159 @@ function initMap() {
         center: {lat: 40.04443758460856, lng: -94.8779296875},
         zoom: 4
     });
+
+    // Map style
+    var styledMapType = new google.maps.StyledMapType(
+        [
+            {
+                "featureType": "administrative",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "saturation": "-100"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative.province",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "landscape",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "saturation": -100
+                    },
+                    {
+                        "lightness": 65
+                    },
+                    {
+                        "visibility": "on"
+                    }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "saturation": -100
+                    },
+                    {
+                        "lightness": "50"
+                    },
+                    {
+                        "visibility": "simplified"
+                    }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "saturation": "-100"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "simplified"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.arterial",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "lightness": "30"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.local",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "lightness": "40"
+                    }
+                ]
+            },
+            {
+                "featureType": "transit",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "saturation": -100
+                    },
+                    {
+                        "visibility": "simplified"
+                    }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "hue": "#ffff00"
+                    },
+                    {
+                        "lightness": -25
+                    },
+                    {
+                        "saturation": -97
+                    }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "labels",
+                "stylers": [
+                    {
+                        "lightness": -25
+                    },
+                    {
+                        "saturation": -100
+                    }
+                ]
+            }
+        ]
+    );
+    map.mapTypes.set('styled_map', styledMapType);
+    // map.setMapTypeId('styled_map');
+
     mapBounds = new google.maps.LatLngBounds();
     geo = new google.maps.Geocoder();
 
-    // Init and config address search autocomplete
-    var input = document.getElementById('address-input');
-    var autocomplete = new google.maps.places.Autocomplete(input);
-    autocomplete.bindTo('bounds', map);
-    autocomplete.addListener('place_changed', function() {
-        var place = autocomplete.getPlace();
-        if (!place.geometry) {
-            // User entered the name of a Place that was not suggested and
-            // pressed the Enter key, or the Place Details request failed.
-            window.alert("No details available for input: '" + place.name + "'");
-            return;
-        }
-        map.setCenter(place.geometry.location);
-        map.setZoom(17);
-    });
-
-    api = new BreweryDBAPI('57c867fabb0e35e3540fe6119f029846')
-    pos = {lat: 39.5278099, lng: -119.87703720000002}
+    // // Init and config address search autocomplete
+    // var input = document.getElementById('address-input');
+    // var autocomplete = new google.maps.places.Autocomplete(input);
+    // autocomplete.bindTo('bounds', map);
+    // autocomplete.addListener('place_changed', function() {
+    //     var place = autocomplete.getPlace();
+    //     if (!place.geometry) {
+    //         // User entered the name of a Place that was not suggested and
+    //         // pressed the Enter key, or the Place Details request failed.
+    //         window.alert("No details available for input: '" + place.name + "'");
+    //         return;
+    //     }
+    //     map.setCenter(place.geometry.location);
+    //     map.setZoom(17);
+    // });
+    //
+    // api = new BreweryDBAPI('57c867fabb0e35e3540fe6119f029846')
+    // pos = {lat: 39.5278099, lng: -119.87703720000002}
 
 };
 
@@ -38,14 +170,20 @@ function setMapCenter(location) {
     map.setZoom(preZoom);
 };
 
-function initMarker(breweryModel) {
+function makeMarker(breweryModel) {
     var marker = new google.maps.Marker({
         map: map,
         position: breweryModel.coords(),
         title: breweryModel.name(),
-        animation: google.maps.Animation.DROP
+        animation: google.maps.Animation.DROP,
+        icon: '../static/img/dark-green-marker-med.png'
+    });
+    marker.addListener('click', function() {
+        console.log(this.breweryObj.viewModel.locationClick(this.breweryObj));
     });
     mapBounds.extend(marker.position);
+    map.fitBounds(mapBounds);
+    return marker;
 }
 
 function codeAddress() {

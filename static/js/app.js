@@ -17,7 +17,7 @@ var Location = function (data) {
     });
 };
 
-var Brewery = function (data) {
+var Brewery = function (data, viewModel) {
     var self = this;
 
     // id will be used to ensure breweries stored
@@ -55,8 +55,17 @@ var Brewery = function (data) {
     // as not all breweries have logos.
     this.images = ko.observable(data.brewery.images);
 
+    // Track last-clicked location
+    this.isActive = ko.observable(false);
+
     // Store an unshown marker for each brewery,
     // then just toggle visible/hidden.
+    //
+    // Rubric says markers can't be obvserables, so this is a plain object
+    this.marker = makeMarker(this);
+    this.marker.breweryObj = this;
+
+    this.viewModel = viewModel;
 };
 
 var ViewModel = function () {
@@ -65,16 +74,37 @@ var ViewModel = function () {
     // KO vars here
     this.locationsList = ko.observableArray([]);
     this.addressSearch = ko.observable();
+    this.currentLocation = ko.observable();
 
 
     this.recenterMap = function(clickedLocation) {
         setMapCenter(new google.maps.Marker({position: clickedLocation.coords()}));
     };
 
+    this.locationClick = function(clickedLocation) {
+
+        // First, reset last-clicked marker to default
+        if (self.currentLocation()) {
+            self.currentLocation().marker.setIcon('../static/img/dark-green-marker-med.png');
+            self.currentLocation().marker.setZIndex();
+            self.currentLocation().isActive(false);
+        };
+
+        // Then register new currentLocation and use custom marker
+        clickedLocation.marker.setIcon('../static/img/light-green-marker-med2.png');
+        clickedLocation.marker.setZIndex(google.maps.Marker.MAX_ZINDEX + 1);
+        clickedLocation.isActive(true);
+        self.currentLocation(clickedLocation);
+    };
+
+    this.markerClick = function(clickedMarker) {
+
+    };
+
     this.getNearbyBreweries = function(position) {
         var data = {
-            lat: position.lat,
-            lng: position.lng,
+            lat: position.lat(),
+            lng: position.lng(),
             key: '57c867fabb0e35e3540fe6119f029846',
             endpoint: '/search/geo/point'
         };
@@ -85,12 +115,36 @@ var ViewModel = function () {
             url: "/proxy",
             data: JSON.stringify(data),
             success: function(breweryJSON) {
+                console.log(breweryJSON);
                 breweryJSON.data.forEach(function(breweryData) {
-                    var brewery = new Brewery(breweryData);
+                    var brewery = new Brewery(breweryData, self);
                     self.locationsList.push(brewery);
-                    initMarker(brewery);
                 });
             }
+        });
+    };
+
+    this.resetLocationsList = function() {
+        // Remove all current markers from map, reset map bounds, and empty observableArray
+        self.locationsList().forEach(function(location) {
+            location.marker.setMap(null);
+        });
+        mapBounds = new google.maps.LatLngBounds();
+        self.locationsList([]);
+    };
+
+    this.searchLocation = function () {
+        self.resetLocationsList();
+        geo.geocode({'address': self.addressSearch()}, function(results, status) {
+            if (status === 'OK') {
+                map.setCenter(results[0].geometry.location);
+                map.setZoom(14);
+                console.log(results[0].geometry.location);
+                self.getNearbyBreweries(results[0].geometry.location);
+                self.addressSearch('');
+            } else {
+                alert('Geocode was not successful for the following reason: ' + status)
+            };
         });
     };
 
@@ -99,6 +153,8 @@ var ViewModel = function () {
         // 2. Get breweries surrounding current location
         // 3. Recenter map on current location
         // 4. Display breweries on map
+
+        console.log('yeah')
 
         var pos = {}
 

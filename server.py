@@ -1,4 +1,5 @@
 import requests
+
 from flask import Flask, jsonify, render_template, request
 
 app = Flask(__name__)
@@ -23,4 +24,4 @@ def get_locations():
     return jsonify(r.json())
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=2000)

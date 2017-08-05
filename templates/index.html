@@ -2,33 +2,52 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>FSWD6 - Maps</title>
+        <title>Find Me Beer</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Cabin|Old+Standard+TT" rel="stylesheet">
+
+        <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
-        <div class="container">
-
-            <aside id="sidenav">
-                <div id="logo">
+        <div class="flex-container">
+            <!-- All non-map elements go here -->
+            <div id="sidenav" class="flex-container">
+                <div class="logo">
+                    <!-- <img src='../static/img/mug.png'> -->
                     <h1>Find Me Beer</h1>
                 </div>
-                <hr>
-                <div id="search-options">
-                    <button type="button" id="current-loc-btn" data-bind="click: currentLocationClick">Use Current Location</button>
-                    <br>
-                    <span>--- OR ---</span>
-                    <div id="address-search">
-                        <input id="address-input" type="textbox" data-bind="value: addressSearch">
-                        <input type="button" value="Search">
+                <div class="search-options">
+                    <input id="address-input" type="textbox" data-bind="value: addressSearch">
+                    <div class="search-buttons">
+                        <button id="current-loc-btn" type="button" name="button" data-bind="click: currentLocationClick">Use Current Location</button>
+                        <button id="addr-search-btn" type="button" name="button" data-bind="click: searchLocation">Search</button>
                     </div>
                 </div>
-                <ul data-bind="foreach: locationsList">
-                    <li data-bind="text: name, click: $parent.recenterMap"></li>
-                </ul>
-            </aside>
-            <main id="map"></main>
+                <div class="breweries" data-bind="foreach: locationsList">
+                    <div class="brewery" data-bind="click: $parent.locationClick, css: { 'active-brewery': isActive}">
+                        <div class="brewery-content">
+                            <h2 class="brewery-name" data-bind="text: name"></h2>
+                            <span data-bind="text: fullAddress"></span><br>
+                            <span data-bind="text: phone"></span><br>
+                            <!-- <a data-bind="text: website, attr: { href: website }"></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- The map -->
+            <div id="map"></div>
+
+            <!-- Modal for detailed brewery info -->
+            <!-- <div id="brewery-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                </div>
+            </div> -->
         </div>
 
         <!-- Load Google Maps -->
