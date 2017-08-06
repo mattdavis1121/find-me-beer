@@ -39,15 +39,13 @@
                 </div>
             </div>
 
+            <div class="flex-container drawer" data-bind="with: currentLocation, css: { 'active-brewery-drawer': drawerVisible}">
+                <h2 data-bind="text: name"></h2>
+            </div>
+
             <!-- The map -->
             <div id="map"></div>
 
-            <!-- Modal for detailed brewery info -->
-            <!-- <div id="brewery-modal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                </div>
-            </div> -->
         </div>
 
         <!-- Load Google Maps -->

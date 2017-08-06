@@ -71,20 +71,6 @@ html, body {
     overflow-y: auto;
 }
 
-/*.breweries::-webkit-scrollbar {
-    width: .5em;
-    background-color: red;
-}
-
-.breweries::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
-
-.breweries::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
-}*/
-
 .brewery {
     /*border-top: 2px solid #20FC8F;
     border-bottom: 2px solid #20FC8F;*/
@@ -118,4 +104,19 @@ so the scroll bar isn't hanging a few pixels off either end*/
 
 .brewery:last-of-type .brewery-content{
     margin-bottom: 0;
+}
+
+.drawer {
+    height: 100%;
+    width: 50%;  /*Changing this shows/hides the drawer*/
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    margin-left: -25%;
+    background-color: rgba(45, 45, 42, 0.68);
+}
+
+.active-brewery-drawer {
+    margin-left: 25%;
 }

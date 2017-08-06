@@ -75,6 +75,7 @@ var ViewModel = function () {
     this.locationsList = ko.observableArray([]);
     this.addressSearch = ko.observable();
     this.currentLocation = ko.observable();
+    this.drawerVisible = ko.observable(false);
 
 
     this.recenterMap = function(clickedLocation) {
@@ -120,6 +121,8 @@ var ViewModel = function () {
                     var brewery = new Brewery(breweryData, self);
                     self.locationsList.push(brewery);
                 });
+                // Set first element as active by default
+                self.locationClick(self.locationsList()[0]);
             }
         });
     };
