@@ -2,9 +2,12 @@ html, body {
     height: 100%;
 }
 
+.main {
+    height: 100%;
+}
+
 .flex-container {
     display: flex;
-    height: 100%;
 }
 
 #sidenav {
@@ -88,6 +91,21 @@ html, body {
 .brewery-content {
     padding: 10px;
     margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*The next two rules hide all drawer toggle
+buttons except for the active brewery*/
+
+.brewery-content i {
+    visibility: hidden;
+    font-size:24px;
+    margin: 3px;
+}
+
+.active-brewery .brewery-content i{
+    visibility: visible;
 }
 
 .brewery-name {
@@ -115,8 +133,40 @@ so the scroll bar isn't hanging a few pixels off either end*/
     transition: 0.5s;
     margin-left: -25%;
     background-color: rgba(45, 45, 42, 0.68);
+    align-items: center;
+    justify-content: center;
 }
 
 .active-brewery-drawer {
     margin-left: 25%;
 }
+
+.drawer-content {
+    margin: 5%;
+    color: #EDEDDC;
+    flex-direction: column;
+    font-family: 'Old Standard TT', serif;
+    font-size: 20px;
+
+}
+
+.drawer-header {
+    margin-bottom: 20px;
+    font-family: 'Cabin', sans-serif;
+    flex-direction: column;
+}
+
+.drawer-header h2 {
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.drawer-content a {
+    text-decoration: none;
+    color: #EDEDDC;
+}
+
+.drawer-content a:hover {
+    color: #20FC8F
+}
+

@@ -24,4 +24,5 @@ def get_locations():
     return jsonify(r.json())
 
 if __name__ == '__main__':
-    app.run(debug=True, port=2000)
+    # app.run(debug=True, port=2000)
+    app.run(debug=True, host='192.168.0.10', port=80)

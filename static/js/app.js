@@ -35,7 +35,10 @@ var Brewery = function (data, viewModel) {
     this.lng = ko.observable(data.longitude);
     this.coords = ko.computed(function () {
         return {lat: self.lat(), lng: self.lng()};
-    })
+    });
+    this.directionsLink = ko.computed(function () {
+        return "https://www.google.com/maps/dir//" + self.lat() + "," + self.lng() + "/"
+    });
 
     this.phone = ko.observable(data.phone);
     this.locality = ko.observable(data.locality);
@@ -98,8 +101,8 @@ var ViewModel = function () {
         self.currentLocation(clickedLocation);
     };
 
-    this.markerClick = function(clickedMarker) {
-
+    this.toggleDrawer = function(clickedMarker) {
+        self.drawerVisible(!self.drawerVisible());
     };
 
     this.getNearbyBreweries = function(position) {
