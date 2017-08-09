@@ -18,11 +18,11 @@ def get_locations():
     payload = {
         'key': data['key'],
         'lat': data['lat'],
-        'lng': data['lng']
+        'lng': data['lng'],
+        'radius': data.get('radius', 10)
     }
     r = requests.get(url, params=payload)
     return jsonify(r.json())
 
 if __name__ == '__main__':
-    # app.run(debug=True, port=2000)
-    app.run(debug=True, host='192.168.0.10', port=80)
+    app.run(debug=True, port=2000)

@@ -172,7 +172,7 @@ function setMapCenter(location) {
 
 function makeMarker(breweryModel) {
     var marker = new google.maps.Marker({
-        map: map,
+        // map: map,
         position: breweryModel.coords(),
         title: breweryModel.name(),
         animation: google.maps.Animation.DROP,

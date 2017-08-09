@@ -33,6 +33,7 @@ var Brewery = function (data, viewModel) {
     // Location data
     this.lat = ko.observable(data.latitude);
     this.lng = ko.observable(data.longitude);
+    this.distance = ko.observable(data.distance);
     this.coords = ko.computed(function () {
         return {lat: self.lat(), lng: self.lng()};
     });
@@ -76,10 +77,57 @@ var ViewModel = function () {
 
     // KO vars here
     this.locationsList = ko.observableArray([]);
+    this.filteredLocationsList = ko.observableArray([]);
     this.addressSearch = ko.observable();
     this.currentLocation = ko.observable();
     this.drawerVisible = ko.observable(false);
+    this.typeFilter = ko.observable();
+    this.distanceFilter = ko.observable();
+    this.distanceOptions = ko.observableArray([20, 10, 5]);
 
+    // Computed vals
+    this.breweryTypes = ko.computed(function () {
+        var types = [];
+        self.locationsList().forEach(function(location) {
+           if (!types.includes(location.type())) {
+               types.push(location.type());
+           };
+        });
+        return types;
+    });
+    this.displayBreweries = ko.computed(function() {
+        // Handle brewery-type and distance filters
+        // If neither filter is set, return locationsList unchanged.
+        // If only one of the two is set, apply the appropriate filter and return
+        // If both are set, apply both and return
+        if (!self.typeFilter() && !self.distanceFilter()) {
+            return self.locationsList();
+        } else if (self.typeFilter() && !self.distanceFilter()) {
+            return ko.utils.arrayFilter(self.locationsList(), function(location) {
+                return location.type() == self.typeFilter();
+            });
+        } else if (!self.typeFilter() && self.distanceFilter()) {
+            return ko.utils.arrayFilter(self.locationsList(), function(location) {
+                return location.distance() <= self.distanceFilter();
+            });
+        } else {
+            return ko.utils.arrayFilter(self.locationsList(), function(location) {
+                return location.type() == self.typeFilter() && location.distance() <= self.distanceFilter();
+            });
+        };
+    });
+    this.displayBreweries.subscribe(function(newArray) {
+        if (newArray.length > 0) {
+            self.locationClick(newArray[0]);
+            self.renderMarkers(newArray);
+        };
+    });
+
+    this.renderMarkers = function(breweriesArray) {
+        // Unset all map markers, then render only those in the array passed in
+        self.locationsList().forEach(function (brewery) { brewery.marker.setMap(null) });
+        breweriesArray.forEach(function (brewery) { brewery.marker.setMap(map) });
+    };
 
     this.recenterMap = function(clickedLocation) {
         setMapCenter(new google.maps.Marker({position: clickedLocation.coords()}));
@@ -109,6 +157,7 @@ var ViewModel = function () {
         var data = {
             lat: position.lat(),
             lng: position.lng(),
+            radius: 30,
             key: '57c867fabb0e35e3540fe6119f029846',
             endpoint: '/search/geo/point'
         };
@@ -120,12 +169,12 @@ var ViewModel = function () {
             data: JSON.stringify(data),
             success: function(breweryJSON) {
                 console.log(breweryJSON);
+                var breweries = [];
                 breweryJSON.data.forEach(function(breweryData) {
                     var brewery = new Brewery(breweryData, self);
-                    self.locationsList.push(brewery);
+                    breweries.push(brewery);
                 });
-                // Set first element as active by default
-                self.locationClick(self.locationsList()[0]);
+                self.locationsList(breweries);
             }
         });
     };
@@ -145,7 +194,6 @@ var ViewModel = function () {
             if (status === 'OK') {
                 map.setCenter(results[0].geometry.location);
                 map.setZoom(14);
-                console.log(results[0].geometry.location);
                 self.getNearbyBreweries(results[0].geometry.location);
                 self.addressSearch('');
             } else {
@@ -160,8 +208,6 @@ var ViewModel = function () {
         // 3. Recenter map on current location
         // 4. Display breweries on map
 
-        console.log('yeah')
-
         var pos = {}
 
         // Get current location
@@ -170,7 +216,6 @@ var ViewModel = function () {
                 lat: position.coords.latitude,
                 lng: position.coords.longitude
             };
-            console.log(pos);
             map.setCenter(pos);
             map.setZoom(14);
             self.getNearbyBreweries(pos);
@@ -200,7 +245,6 @@ var ViewModel = function () {
         // 3. Display
 
         geo.geocode({'address': address}, function(results, status) {
-            console.log(results);
             setMapCenter(new google.maps.Marker({position: results[0].geometry.location}));
         });
 
