@@ -10,13 +10,6 @@ html, body {
     display: flex;
 }
 
-.logo-and-controls {
-    flex-direction: column;
-    align-items: center;
-    min-height: 30%;
-    width: 100%;
-}
-
 #sidenav {
     height: 100%;
     width: 25%;
@@ -67,7 +60,7 @@ html, body {
 }
 
 .filter-controls {
-    margin-top: 10px;
+    margin: 10px 0px 10px;
 }
 
 .breweries {
