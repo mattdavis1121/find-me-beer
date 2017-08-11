@@ -13,7 +13,7 @@ html, body {
 .logo-and-controls {
     flex-direction: column;
     align-items: center;
-    min-height: 20%;
+    min-height: 35%;
     width: 100%;
 }
 
@@ -175,4 +175,3 @@ so the scroll bar isn't hanging a few pixels off either end*/
 .drawer-content a:hover {
     color: #20FC8F
 }
-
