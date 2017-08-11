@@ -2,9 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Find Me Beer</title>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
 
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Cabin|Old+Standard+TT" rel="stylesheet">
@@ -20,26 +22,26 @@
             <!-- All non-map elements go here -->
             <div id="sidenav" class="flex-container">
                 <div class="logo-and-controls">
-                    <div class="logo flex-container">
-                    <!-- <img src='../static/img/mug.png'> -->
-                        <h1>Find Me Beer</h1>
-                    </div>
-                    <div class="search-options">
-                        <form class="flex-container" data-bind="submit: searchLocation">
-                            <input id="address-input" type="textbox" data-bind="value: addressSearch" value="Reno, Nevada" autofocus>
-                            <input type="submit" value="Submit">
-                        </form>
-                    </div>
-                    <div class="filter-controls" data-bind="visible: locationsList().length > 0">
-                        <label for="brewery-type">Brewery type </label>
-                        <select name="brewery-type" data-bind="options: breweryTypes,
-                                                               optionsCaption: 'Any',
-                                                               value: typeFilter"></select>
-                        <br>
-                        <label for="brewery-distance">Distance (miles) </label>
-                        <select name="brewery-distance" data-bind="options: distanceOptions,
-                                                                   optionsCaption: '30',
-                                                                   value: distanceFilter"></select>
+                    <div class="logo-and-controls-content">
+                        <div class="logo flex-container">
+                            <h1>Find Me Beer</h1>
+                        </div>
+                        <div class="search-options">
+                            <form class="flex-container" data-bind="submit: searchLocation">
+                                <input id="address-input" type="textbox" data-bind="value: addressSearch" value="Reno, Nevada" autofocus>
+                                <input id="address-submit" type="submit" value="Submit">
+                            </form>
+                        </div>
+                        <div class="filter-controls flex-container" data-bind="visible: locationsList().length > 0">
+                            <label for="brewery-type">Brewery type </label>
+                            <select name="brewery-type" data-bind="options: breweryTypes,
+                                                                   optionsCaption: 'Any',
+                                                                   value: typeFilter"></select>
+                            <label for="brewery-distance">Distance (miles) </label>
+                            <select name="brewery-distance" data-bind="options: distanceOptions,
+                                                                       optionsCaption: '30',
+                                                                       value: distanceFilter"></select>
+                        </div>
                     </div>
                 </div>
                 <div class="breweries" data-bind="foreach: displayBreweries">

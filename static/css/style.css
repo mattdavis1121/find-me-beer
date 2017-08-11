@@ -26,6 +26,15 @@ html, body {
     z-index: 10;
 }
 
+.logo-and-controls {
+    width: 100%;
+}
+
+.logo-and-controls-content {
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
 .logo {
     justify-content: center;
     width: 100%;
@@ -42,12 +51,17 @@ html, body {
     position: relative;
 }
 
-.search-options {
-    margin: 10px;
-}
-
 .search-options form {
     width: 100%;
+
+}
+
+#address-input {
+    width: 75%;
+}
+
+#address-submit {
+    width: 25%;
 }
 
 .search-buttons {
@@ -61,6 +75,8 @@ html, body {
 
 .filter-controls {
     margin: 10px 0px 10px;
+    font-size: 14px;
+    flex-direction: column;
 }
 
 .breweries {
