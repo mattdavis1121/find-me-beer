@@ -22,7 +22,7 @@ var Brewery = function (data, viewModel) {
 
     // id will be used to ensure breweries stored
     // in memory are unique.
-    this.id = ko.observable(data.brewery.id);
+    this.id = ko.observable('brewery_' + data.id);
 
     // Various desriptors
     this.name = ko.observable(data.brewery.name);
@@ -78,12 +78,13 @@ var ViewModel = function () {
     // KO vars here
     this.locationsList = ko.observableArray([]);
     this.filteredLocationsList = ko.observableArray([]);
-    this.addressSearch = ko.observable();
+    this.addressSearch = ko.observable("Reno, Nevada");
     this.currentLocation = ko.observable();
     this.drawerVisible = ko.observable(false);
     this.typeFilter = ko.observable();
     this.distanceFilter = ko.observable();
     this.distanceOptions = ko.observableArray([20, 10, 5]);
+    this.breweriesAreDisplayed = ko.observable(false);
 
     // Computed vals
     this.breweryTypes = ko.computed(function () {
@@ -133,7 +134,25 @@ var ViewModel = function () {
         setMapCenter(new google.maps.Marker({position: clickedLocation.coords()}));
     };
 
+    this.scrollBreweryIntoView = function(clickedLocation) {
+        try {
+            var brewery = $('#'+clickedLocation.id());
+            var first_brewery = $('.breweries > .brewery');
+            var breweries = $('.breweries');
+            // Top-to-bottom scroll for desktop view
+            breweries.animate({scrollTop:brewery.offset().top - first_brewery.offset().top}, 1000)
+            // Left-to-right scroll for mobile
+            breweries.animate({scrollLeft:brewery.offset().left - first_brewery.offset().left}, 1000)
+        }
+        catch(err) {
+            // Do nothing. This is just to prevent an error when calling
+            // the locationClick function on address search.
+        }
+    };
+
     this.locationClick = function(clickedLocation) {
+
+        self.scrollBreweryIntoView(clickedLocation);
 
         // First, reset last-clicked marker to default
         if (self.currentLocation()) {
@@ -189,6 +208,7 @@ var ViewModel = function () {
     };
 
     this.searchLocation = function () {
+        self.drawerVisible(false);
         self.resetLocationsList();
         geo.geocode({'address': self.addressSearch()}, function(results, status) {
             if (status === 'OK') {

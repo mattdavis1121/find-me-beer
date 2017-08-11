@@ -20,29 +20,30 @@
             <!-- All non-map elements go here -->
             <div id="sidenav" class="flex-container">
                 <div class="logo-and-controls flex-container">
-                    <div class="logo">
+                    <div class="logo flex-container">
                     <!-- <img src='../static/img/mug.png'> -->
                     <h1>Find Me Beer</h1>
                     </div>
                     <div class="search-options">
-                        <input id="address-input" type="textbox" data-bind="value: addressSearch">
-                        <div class="search-buttons">
-                            <button id="current-loc-btn" type="button" name="button" data-bind="click: currentLocationClick">Use Current Location</button>
-                            <button id="addr-search-btn" type="button" name="button" data-bind="click: searchLocation">Search</button>
-                        </div>
+                        <form class="flex-container" data-bind="submit: searchLocation">
+                            <input id="address-input" type="textbox" data-bind="value: addressSearch" value="Reno, Nevada" autofocus>
+                            <input type="submit" value="Submit">
+                        </form>
                     </div>
                     <div class="filter-controls" data-bind="visible: locationsList().length > 0">
+                        <label for="brewery-type">Brewery type </label>
                         <select name="brewery-type" data-bind="options: breweryTypes,
-                                                               optionsCaption: 'Filter by brewery type',
+                                                               optionsCaption: 'Any',
                                                                value: typeFilter"></select>
                         <br>
+                        <label for="brewery-distance">Distance (miles) </label>
                         <select name="brewery-distance" data-bind="options: distanceOptions,
-                                                                   optionsCaption: 'Filter by distance',
+                                                                   optionsCaption: '30',
                                                                    value: distanceFilter"></select>
                     </div>
                 </div>
                 <div class="breweries" data-bind="foreach: displayBreweries">
-                    <div class="brewery" data-bind="click: $parent.locationClick, css: { 'active-brewery': isActive}">
+                    <div class="brewery" data-bind="click: $parent.locationClick, css: { 'active-brewery': isActive}, attr: { id: id }">
                         <div class="brewery-content flex-container">
                             <div class="brewery-details">
                                 <h2 class="brewery-name" data-bind="text: name"></h2>
