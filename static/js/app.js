@@ -81,6 +81,7 @@ var ViewModel = function () {
     this.addressSearch = ko.observable("Reno, Nevada");
     this.currentLocation = ko.observable();
     this.drawerVisible = ko.observable(false);
+    this.locationClickDisabled = ko.observable(false);
     this.typeFilter = ko.observable();
     this.distanceFilter = ko.observable();
     this.distanceOptions = ko.observableArray([20, 10, 5]);
@@ -140,9 +141,9 @@ var ViewModel = function () {
             var first_brewery = $('.breweries > .brewery');
             var breweries = $('.breweries');
             // Top-to-bottom scroll for desktop view
-            breweries.animate({scrollTop:brewery.offset().top - first_brewery.offset().top}, 1000)
+            breweries.animate({scrollTop:brewery.offset().top - first_brewery.offset().top})
             // Left-to-right scroll for mobile
-            breweries.animate({scrollLeft:brewery.offset().left - first_brewery.offset().left}, 1000)
+            breweries.animate({scrollLeft:brewery.offset().left - first_brewery.offset().left})
         }
         catch(err) {
             // Do nothing. This is just to prevent an error when calling
@@ -152,20 +153,24 @@ var ViewModel = function () {
 
     this.locationClick = function(clickedLocation) {
 
-        self.scrollBreweryIntoView(clickedLocation);
+        if (!self.locationClickDisabled()) {
+            self.locationClickDisabled(true);
+            self.scrollBreweryIntoView(clickedLocation);
 
-        // First, reset last-clicked marker to default
-        if (self.currentLocation()) {
-            self.currentLocation().marker.setIcon('../static/img/dark-green-marker-med.png');
-            self.currentLocation().marker.setZIndex();
-            self.currentLocation().isActive(false);
+            // First, reset last-clicked marker to default
+            if (self.currentLocation()) {
+                self.currentLocation().marker.setIcon('../static/img/dark-green-marker-med.png');
+                self.currentLocation().marker.setZIndex();
+                self.currentLocation().isActive(false);
+            };
+
+            // Then register new currentLocation and use custom marker
+            clickedLocation.marker.setIcon('../static/img/light-green-marker-med2.png');
+            clickedLocation.marker.setZIndex(google.maps.Marker.MAX_ZINDEX + 1);
+            clickedLocation.isActive(true);
+            self.currentLocation(clickedLocation);
+            self.locationClickDisabled(false);
         };
-
-        // Then register new currentLocation and use custom marker
-        clickedLocation.marker.setIcon('../static/img/light-green-marker-med2.png');
-        clickedLocation.marker.setZIndex(google.maps.Marker.MAX_ZINDEX + 1);
-        clickedLocation.isActive(true);
-        self.currentLocation(clickedLocation);
     };
 
     this.toggleDrawer = function(clickedMarker) {
