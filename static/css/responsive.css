@@ -2,22 +2,16 @@
     Responsive styles for Find Me Beer
 */
 
-/*@media screen and (min-width: 850px) {*/
-    /*#sidenav {*/
-        /*background-color: red;*/
-    /*}*/
-/*}*/
-
-@media screen and (max-width: 1150px) and (min-width: 1051px) {
-    .filter-controls {
+@media screen and (max-width: 1180px) {
+    #address-submit {
         font-size: 14px;
     }
 }
 
-@media screen and (max-width: 1050px) and (min-width: 901px) {
-    /*.filter-controls {*/
-        /*font-size: 14px;*/
-    /*}*/
+@media screen and (max-width: 1050px) {
+    .filter-controls {
+        font-size: 14px;
+    }
     .brewery-content {
         padding: 5px 10px 5px;
     }
@@ -27,5 +21,75 @@
     }
     .brewery-type {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #address-submit {
+        font-size: 12px;
+    }
+    .logo h1 {
+        font-size: 24px;
+    }
+}
+
+/* Switch to mobile layout under 375px */
+@media screen and (max-width: 375px) {
+    .main {
+        flex-direction: column-reverse;
+    }
+    #sidenav {
+        width: 100%;
+        height: 50%;
+        position: static;
+    }
+    .drawer {
+        width: 100%;
+        height: 50%;
+        margin-left: 0px;
+        top: 50%;
+    }
+    .active-brewery-drawer {
+        top: 0px;
+    }
+    #map {
+        width: 100%;
+        height: 50%;
+        margin-left: 0px;
+    }
+    .logo {
+        justify-content: flex-start;
+        width: 20%
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: inline;
+    }
+    .logo-and-controls {
+        /*maybe remove*/
+        /*display: flex;*/
+    }
+    .logo-and-controls-content {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 5px;
+        padding: 0px 5px;
+    }
+    .search-options {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+    .filter-controls {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .filter-controls {
+        font-size: 12px;
     }
 }

@@ -44,6 +44,10 @@ html, body {
     margin-bottom: 10px;
 }
 
+.mobile {
+    display: none;
+}
+
 #map {
     height: 100%;
     width: 75%;
@@ -60,10 +64,6 @@ html, body {
     width: 75%;
 }
 
-#address-submit {
-    width: 25%;
-}
-
 .search-buttons {
     display: flex;
     width: 100%;
@@ -75,13 +75,14 @@ html, body {
 
 .filter-controls {
     margin: 10px 0px 10px;
-    font-size: 14px;
+    /*font-size: 14px;*/
     flex-direction: column;
 }
 
 .breweries {
     width: 100%;
-    overflow-y: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .brewery {
@@ -145,6 +146,7 @@ so the scroll bar isn't hanging a few pixels off either end*/
     background-color: rgba(45, 45, 42, 0.68);
     align-items: center;
     justify-content: center;
+    top: 0;
 }
 
 .active-brewery-drawer {

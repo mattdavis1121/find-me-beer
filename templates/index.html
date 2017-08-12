@@ -24,7 +24,8 @@
                 <div class="logo-and-controls">
                     <div class="logo-and-controls-content">
                         <div class="logo flex-container">
-                            <h1>Find Me Beer</h1>
+                            <h1 class="desktop">Find Me Beer</h1>
+                            <h1 class="mobile">FMB</h1>
                         </div>
                         <div class="search-options">
                             <form class="flex-container" data-bind="submit: searchLocation">
@@ -53,9 +54,13 @@
                                 <!-- <span data-bind="text: fullAddress"></span><br>
                                 <span data-bind="text: phone"></span> -->
                             </div>
-                            <div class="drawer-button">
+                            <div class="drawer-button desktop">
                                 <i class="fa fa-angle-double-right" data-bind="click: $parent.toggleDrawer, visible: !$parent.drawerVisible()"></i>
                                 <i class="fa fa-angle-double-left" data-bind="click: $parent.toggleDrawer, visible: $parent.drawerVisible"></i>
+                            </div>
+                            <div class="drawer-button mobile">
+                                <i class="fa fa-angle-double-up" data-bind="click: $parent.toggleDrawer, visible: !$parent.drawerVisible()"></i>
+                                <i class="fa fa-angle-double-down" data-bind="click: $parent.toggleDrawer, visible: $parent.drawerVisible"></i>
                             </div>
                             <!-- <a data-bind="text: website, attr: { href: website }"></a> -->
                         </div>
@@ -63,7 +68,7 @@
                 </div>
             </div>
 
-            <div class="flex-container drawer" data-bind="with: currentLocation, css: {'active-brewery-drawer': drawerVisible}">
+            <div class="drawer" data-bind="with: currentLocation, css: {'active-brewery-drawer': drawerVisible}">
                 <div class="drawer-content flex-container">
                     <div class="drawer-header flex-container">
                         <h2 data-bind="text: name"></h2>
