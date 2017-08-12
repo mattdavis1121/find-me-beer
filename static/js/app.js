@@ -77,6 +77,9 @@ var ViewModel = function () {
 
     // KO vars here
     this.locationsList = ko.observableArray([]);
+    this.promptVisible = ko.computed(function() {
+        return self.locationsList().length == 0;
+    });
     this.filteredLocationsList = ko.observableArray([]);
     this.addressSearch = ko.observable("Reno, Nevada");
     this.currentLocation = ko.observable();
@@ -85,7 +88,13 @@ var ViewModel = function () {
     this.typeFilter = ko.observable();
     this.distanceFilter = ko.observable();
     this.distanceOptions = ko.observableArray([20, 10, 5]);
-    this.breweriesAreDisplayed = ko.observable(false);
+    this.errors = ko.observableArray(['Service temporarily unavailable']);
+    this.errorsVisible = ko.computed(function () {
+        return self.errors().length > 0;
+    });
+    this.promptOrErrorVisible = ko.computed(function () {
+        return self.promptVisible() || self.errorsVisible();
+    });
 
     // Computed vals
     this.breweryTypes = ko.computed(function () {

@@ -18,6 +18,7 @@ html, body {
     font-family: 'Cabin', sans-serif;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-direction: column;
     position: fixed;
     top: 0;
@@ -43,6 +44,37 @@ html, body {
 .logo h1 {
     margin: 20px 0px 10px 0px;
 }
+
+.prompt-and-errors {
+    width: 100%;
+}
+
+.errors {
+    width: 100%;
+    justify-content: center;
+    background-color: #800000;
+}
+
+.error {
+    width: 100%;
+    margin: 3px;
+    background-color: #ff8585;
+    color: #800000;
+    font-size: 18px;
+}
+
+.error-content {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+.error-content i {
+    padding: 5px;
+}
+
 
 .mobile {
     display: none;
