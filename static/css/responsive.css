@@ -135,13 +135,17 @@
     }
     .drawer-content {
         margin: 0px 20px;
-        display: inline;
+        /*display: inline;*/
     }
     .drawer-content p {
         font-size: 16px;
     }
     .drawer-header h2 {
         font-size: 40px;
+    }
+    .drawer-button i {
+        font-size: 30px;
+        padding: 0px 15px;  /*Tap target*/
     }
     .active-brewery-drawer {
         top: 0px;
@@ -153,6 +157,13 @@
     .filter-controls {
         font-size: 12px;
     }
+    .drawer {
+        /*padding: 0px 10px;*/
+    }
+    .drawer-content {
+        margin: auto;
+        padding: 0px 20px;
+    }
     .drawer-content p {
         font-size: 14px;
     }
@@ -162,5 +173,7 @@
     .drawer-header h2 {
         font-size: 30px;
     }
-
+    .drawer-button i {
+        font-size: 24px;
+    }
 }
