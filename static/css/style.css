@@ -50,6 +50,10 @@ html, body {
     width: 100%;
 }
 
+.search-prompt {
+    justify-content: center;
+}
+
 .errors {
     width: 100%;
     justify-content: center;
