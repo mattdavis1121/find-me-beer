@@ -67,8 +67,6 @@
                             <div class="brewery-details">
                                 <h2 class="brewery-name" data-bind="text: name"></h2>
                                 <span class="brewery-type" data-bind="text: type"></span>
-                                <!-- <span data-bind="text: fullAddress"></span><br>
-                                <span data-bind="text: phone"></span> -->
                             </div>
                             <div class="drawer-button desktop">
                                 <i class="fa fa-caret-square-o-right" data-bind="click: $parent.toggleDrawer, visible: !$parent.drawerVisible()"></i>
@@ -78,7 +76,6 @@
                                 <i class="fa fa-caret-square-o-up" data-bind="click: $parent.toggleDrawer, visible: !$parent.drawerVisible()"></i>
                                 <i class="fa fa-caret-square-o-down" data-bind="click: $parent.toggleDrawer, visible: $parent.drawerVisible"></i>
                             </div>
-                            <!-- <a data-bind="text: website, attr: { href: website }"></a> -->
                         </div>
                     </div>
                 </div>
@@ -90,9 +87,6 @@
                         <h2 data-bind="text: name"></h2>
                         <a target="_blank" data-bind="text: website, attr: { href: website }"></a>
                     </div>
-                    <!-- <div class="brewery-logo">
-                        <img alt="" data-bind="attr: { src: images().squareMedium }">
-                    </div> -->
                     <p data-bind="text: description"></p>
                     <a target="_blank" data-bind="attr: {href: directionsLink }">Get Directions</a>
                 </div>
@@ -108,7 +102,6 @@
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI6tCaXEOAs5tttYSE-fk1ItkfxPCTRwk&v=3&libraries=places">
         </script>
         <script type="text/javascript" src="{{ url_for('static', filename='js/knockout-3.4.2.js') }}"></script>
-        <script type="text/javascript" src="{{ url_for('static', filename='js/breweryDB.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='js/map.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>
     </body>

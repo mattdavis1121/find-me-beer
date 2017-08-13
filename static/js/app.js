@@ -1,22 +1,3 @@
-var locations = [
-    {title: 'Home', location: {lat: 39.527705, lng: -119.877138}},
-    {title: 'Aberfeldy', location: {lat: 39.481282, lng: -119.850763}},
-    {title: 'Idlewild', location: {lat: 39.518227, lng: -119.839534}},
-    {title: 'Apartment', location: {lat: 39.479846, lng: -119.836763}}
-];
-
-var Location = function (data) {
-    var self = this;
-
-    this.title = ko.observable(data.title);
-    this.lat = ko.observable(data.location.lat);
-    this.lng = ko.observable(data.location.lng);
-
-    this.coords = ko.computed(function () {
-        return {lat: self.lat(), lng: self.lng()};
-    });
-};
-
 var Brewery = function (data, viewModel) {
     var self = this;
 
@@ -80,7 +61,6 @@ var ViewModel = function () {
     this.promptVisible = ko.computed(function() {
         return self.locationsList().length == 0;
     });
-    this.filteredLocationsList = ko.observableArray([]);
     this.addressSearch = ko.observable("Reno, Nevada");
     this.currentLocation = ko.observable();
     this.drawerVisible = ko.observable(false);
@@ -174,7 +154,7 @@ var ViewModel = function () {
             };
 
             // Then register new currentLocation and use custom marker
-            clickedLocation.marker.setIcon('../static/img/light-green-marker-med2.png');
+            clickedLocation.marker.setIcon('../static/img/light-green-marker-med.png');
             clickedLocation.marker.setZIndex(google.maps.Marker.MAX_ZINDEX + 1);
             clickedLocation.isActive(true);
             self.currentLocation(clickedLocation);
@@ -275,34 +255,6 @@ var ViewModel = function () {
         });
 
         // Get breweries surrounding current location
-
-    };
-
-    this.searchAddress = function(address) {
-        // 1. Set map center to location (zoomed out pretty well)
-        // 2. Get list of nearby breweries
-        // 3. Display
-
-        geo.geocode({'address': address}, function(results, status) {
-            setMapCenter(new google.maps.Marker({position: results[0].geometry.location}));
-        });
-
-        self.recenterMap()
-    };
-
-    this.makeDefaultLocations = function() {
-        // Create markers and Location models from
-        // locations list. Extend map bounds to fit
-        // all markers.
-        locations.forEach(function(locationData) {
-            var location = new Location(locationData);
-            self.locationsList.push(location);
-            initMarker(location);
-        });
-        map.fitBounds(mapBounds);
-    };
-
-    this.getLocations = function() {
 
     };
 };
