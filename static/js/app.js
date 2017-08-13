@@ -78,6 +78,7 @@ var ViewModel = function () {
 
     // Computed vals
     this.breweryTypes = ko.computed(function () {
+        // Get a list of unique brewery types for filter selections
         var types = [];
         self.locationsList().forEach(function(location) {
            if (!types.includes(location.type())) {
@@ -118,10 +119,6 @@ var ViewModel = function () {
         // Unset all map markers, then render only those in the array passed in
         self.locationsList().forEach(function (brewery) { brewery.marker.setMap(null) });
         breweriesArray.forEach(function (brewery) { brewery.marker.setMap(map) });
-    };
-
-    this.recenterMap = function(clickedLocation) {
-        setMapCenter(new google.maps.Marker({position: clickedLocation.coords()}));
     };
 
     this.scrollBreweryIntoView = function(clickedLocation) {
@@ -167,6 +164,8 @@ var ViewModel = function () {
     };
 
     this.getNearbyBreweries = function(position) {
+        // Main data-driver for application. Get breweries within 30 miles of search,
+        // then add to self.locationsList(). Timeout set to 3 seconds.
         var data = {
             lat: position.lat(),
             lng: position.lng(),
@@ -222,10 +221,7 @@ var ViewModel = function () {
     };
 
     this.currentLocationClick = function() {
-        // 1. Get current location
-        // 2. Get breweries surrounding current location
-        // 3. Recenter map on current location
-        // 4. Display breweries on map
+        // Unused, but leaving for now. Might want it later.
 
         var pos = {}
 
