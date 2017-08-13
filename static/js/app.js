@@ -88,7 +88,7 @@ var ViewModel = function () {
     this.typeFilter = ko.observable();
     this.distanceFilter = ko.observable();
     this.distanceOptions = ko.observableArray([20, 10, 5]);
-    this.errors = ko.observableArray(['Service temporarily unavailable']);
+    this.errors = ko.observableArray([]);
     this.errorsVisible = ko.computed(function () {
         return self.errors().length > 0;
     });
@@ -201,6 +201,7 @@ var ViewModel = function () {
             url: "/proxy",
             data: JSON.stringify(data),
             success: function(breweryJSON) {
+                self.errors([]);    //Unset all errors on sucess
                 console.log(breweryJSON);
                 var breweries = [];
                 breweryJSON.data.forEach(function(breweryData) {
@@ -208,6 +209,10 @@ var ViewModel = function () {
                     breweries.push(brewery);
                 });
                 self.locationsList(breweries);
+            },
+            timeout: 3000,
+            error: function(jqXHR, textStatus, errorThrown) {
+                self.errors.push('Connection to BreweryDB temporarily unavailable')
             }
         });
     };
@@ -231,7 +236,7 @@ var ViewModel = function () {
                 self.getNearbyBreweries(results[0].geometry.location);
                 self.addressSearch('');
             } else {
-                alert('Geocode was not successful for the following reason: ' + status)
+                self.errors.push('Cannot find location');
             };
         });
     };

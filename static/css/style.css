@@ -4,6 +4,7 @@ html, body {
 
 .main {
     height: 100%;
+    display: none;
 }
 
 .flex-container {
@@ -52,15 +53,17 @@ html, body {
 .errors {
     width: 100%;
     justify-content: center;
-    background-color: #800000;
+    flex-wrap: wrap;
 }
 
 .error {
     width: 100%;
-    margin: 3px;
+    margin: 2px 0px;
     background-color: #ff8585;
+    border: 3px solid #800000;
     color: #800000;
     font-size: 18px;
+    border-radius: 30px;
 }
 
 .error-content {
