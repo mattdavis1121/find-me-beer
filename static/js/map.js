@@ -6,16 +6,7 @@ function initMap() {
 
     mapBounds = new google.maps.LatLngBounds();
     geo = new google.maps.Geocoder();
-};
-
-function setMapCenter(location) {
-    var preZoom = map.getZoom();
-    while (!map.getBounds().contains(location.getPosition())) {
-        map.setZoom(map.getZoom() - 1);
-    };
-    map.panTo(location.getPosition());
-    map.setZoom(preZoom);
-};
+}
 
 function makeMarker(breweryModel) {
     var marker = new google.maps.Marker({
@@ -25,7 +16,7 @@ function makeMarker(breweryModel) {
         animation: google.maps.Animation.DROP,
         icon: '../static/img/dark-green-marker-med.png'
     });
-    marker.addListener('click', function() {
+    marker.addListener('click', function () {
         console.log(this.breweryObj.viewModel.locationClick(this.breweryObj));
     });
     mapBounds.extend(marker.position);
@@ -39,7 +30,7 @@ function geoLocate() {
     var input = document.getElementById('address-input');
     // Geolocation
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function(position) {
+        navigator.geolocation.getCurrentPosition(function (position) {
             var pos = {
                 lat: position.coords.latitude,
                 lng: position.coords.longitude
@@ -48,7 +39,7 @@ function geoLocate() {
             map.setZoom(14);
 
             // Get address from current latlng and set search box
-            geo.geocode({'location': pos}, function(results, status) {
+            geo.geocode({'location': pos}, function (results, status) {
                 if (status === 'OK') {
                     console.log(results);
                     if (results[0]) {
@@ -62,15 +53,17 @@ function geoLocate() {
                 }
             });
 
-        }, function() {
+        }, function () {
             handleLocationError();
         });
     } else {
         // Browser doesn't support Geolocation
         handleLocationError();
-    };
+    }
+
+
     function handleLocationError() {
         // TODO
         console.log("Browser does not support Geolocation")
-    };
+    }
 }
