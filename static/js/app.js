@@ -19,7 +19,7 @@ var Brewery = function (data, viewModel) {
         return {lat: self.lat(), lng: self.lng()};
     });
     this.directionsLink = ko.computed(function () {
-        return "https://www.google.com/maps/dir//" + self.lat() + "," + self.lng() + "/"
+        return "https://www.google.com/maps/dir//" + self.lat() + "," + self.lng() + "/";
     });
 
     this.phone = ko.observable(data.phone);
@@ -59,7 +59,7 @@ var ViewModel = function () {
     // KO vars here
     this.locationsList = ko.observableArray([]);
     this.promptVisible = ko.computed(function() {
-        return self.locationsList().length == 0;
+        return self.locationsList().length === 0;
     });
     this.addressSearch = ko.observable("Reno, Nevada");
     this.currentLocation = ko.observable();
@@ -83,7 +83,7 @@ var ViewModel = function () {
         self.locationsList().forEach(function(location) {
            if (!types.includes(location.type())) {
                types.push(location.type());
-           };
+           }
         });
         return types;
     });
@@ -106,19 +106,23 @@ var ViewModel = function () {
             return ko.utils.arrayFilter(self.locationsList(), function(location) {
                 return location.type() == self.typeFilter() && location.distance() <= self.distanceFilter();
             });
-        };
+        }
     });
     this.displayBreweries.subscribe(function(newArray) {
         if (newArray.length > 0) {
             self.locationClick(newArray[0]);
             self.renderMarkers(newArray);
-        };
+        }
     });
 
     this.renderMarkers = function(breweriesArray) {
         // Unset all map markers, then render only those in the array passed in
-        self.locationsList().forEach(function (brewery) { brewery.marker.setMap(null) });
-        breweriesArray.forEach(function (brewery) { brewery.marker.setMap(map) });
+        self.locationsList().forEach(function (brewery) {
+            brewery.marker.setMap(null)
+        });
+        breweriesArray.forEach(function (brewery) {
+            brewery.marker.setMap(map)
+        });
     };
 
     this.scrollBreweryIntoView = function(clickedLocation) {
@@ -127,9 +131,9 @@ var ViewModel = function () {
             var first_brewery = $('.breweries > .brewery');
             var breweries = $('.breweries');
             // Top-to-bottom scroll for desktop view
-            breweries.animate({scrollTop:brewery.offset().top - first_brewery.offset().top})
+            breweries.animate({scrollTop:brewery.offset().top - first_brewery.offset().top});
             // Left-to-right scroll for mobile
-            breweries.animate({scrollLeft:brewery.offset().left - first_brewery.offset().left})
+            breweries.animate({scrollLeft:brewery.offset().left - first_brewery.offset().left});
         }
         catch(err) {
             // Do nothing. This is just to prevent an error when calling
@@ -148,7 +152,7 @@ var ViewModel = function () {
                 self.currentLocation().marker.setIcon('../static/img/dark-green-marker-med.png');
                 self.currentLocation().marker.setZIndex();
                 self.currentLocation().isActive(false);
-            };
+            }
 
             // Then register new currentLocation and use custom marker
             clickedLocation.marker.setIcon('../static/img/light-green-marker-med.png');
@@ -156,7 +160,7 @@ var ViewModel = function () {
             clickedLocation.isActive(true);
             self.currentLocation(clickedLocation);
             self.locationClickDisabled(false);
-        };
+        }
     };
 
     this.toggleDrawer = function(clickedMarker) {
@@ -191,7 +195,7 @@ var ViewModel = function () {
             },
             timeout: 3000,
             error: function(jqXHR, textStatus, errorThrown) {
-                self.errors.push('Connection to BreweryDB temporarily unavailable')
+                self.errors.push('Connection to BreweryDB temporarily unavailable');
             }
         });
     };
@@ -216,14 +220,14 @@ var ViewModel = function () {
                 self.addressSearch('');
             } else {
                 self.errors.push('Cannot find location');
-            };
+            }
         });
     };
 
     this.currentLocationClick = function() {
         // Unused, but leaving for now. Might want it later.
 
-        var pos = {}
+        var pos = {};
 
         // Get current location
         navigator.geolocation.getCurrentPosition(function(position) {
