@@ -118,10 +118,10 @@ var ViewModel = function () {
     this.renderMarkers = function (breweriesArray) {
         // Unset all map markers, then render only those in the array passed in
         self.locationsList().forEach(function (brewery) {
-            brewery.marker.setMap(null)
+            brewery.marker.setMap(null);
         });
         breweriesArray.forEach(function (brewery) {
-            brewery.marker.setMap(map)
+            brewery.marker.setMap(map);
         });
     };
 
