@@ -61,7 +61,7 @@ var ViewModel = function () {
     this.promptVisible = ko.computed(function () {
         return self.locationsList().length === 0;
     });
-    this.addressSearch = ko.observable("Reno, Nevada");
+    this.addressSearch = ko.observable();
     this.currentLocation = ko.observable();
     this.drawerVisible = ko.observable(false);
     this.locationClickDisabled = ko.observable(false);
@@ -258,8 +258,6 @@ var ViewModel = function () {
 
     };
 
-    // Auto-load default locations
-    this.searchLocation();
 };
 
 initMap();
