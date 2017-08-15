@@ -101,6 +101,11 @@
         <script
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI6tCaXEOAs5tttYSE-fk1ItkfxPCTRwk&v=3&libraries=places">
         </script>
+        <script>
+            if (typeof google == 'undefined') {
+                alert('Temporarily unable to access Google Maps. Sorry!');
+            }
+        </script>
         <script type="text/javascript" src="{{ url_for('static', filename='js/knockout-3.4.2.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='js/map.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>

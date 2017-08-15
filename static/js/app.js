@@ -257,6 +257,9 @@ var ViewModel = function () {
         // Get breweries surrounding current location
 
     };
+
+    // Auto-load default locations
+    this.searchLocation();
 };
 
 initMap();
