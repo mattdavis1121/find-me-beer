@@ -1,6 +1,13 @@
 # Find Me Beer
 A brewery locator app powered by KnockoutJS, BreweryDb, and Google Maps
 
+---
+### Live App Discontinued
+
+As of 11/2/18, BreweryDB has removed its free API service. For now, FindMeBeer will remain online for reference, but it will not function correctly.
+
+---
+
 ### Setup
 1. `git clone https://github.com/mattdavis1121/find-me-beer.git && cd find-me-beer`
 2. `mkvirtualenv beer`
