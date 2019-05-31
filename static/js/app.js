@@ -187,6 +187,9 @@ var ViewModel = function () {
             dataType: "json",
             url: url,
             data: JSON.stringify(data),
+            headers: {
+            "Content-Length": data.length,
+            },
             success: function (breweryJSON) {
                 self.errors([]);    //Unset all errors on sucess
                 console.log(breweryJSON);
