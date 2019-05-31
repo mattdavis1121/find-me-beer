@@ -4,8 +4,10 @@ Find Me Beer.
 A small proxy server for sending API request to BreweryDB. Needed
 in order to get around the same-origin rule as the API doesn't support CORS.
 """
-import requests
+import os
+import json
 
+import requests
 from flask import Flask, jsonify, render_template, request
 
 app = Flask(__name__)
@@ -33,6 +35,15 @@ def get_locations():
     }
     r = requests.get(url, params=payload)
     return jsonify(r.json())
+
+
+@app.route('/reno', methods=('POST', 'GET'))
+def get_reno_data():
+    """Retrieve dummy JSON data for Reno breweries."""
+    filename = os.path.join(app.static_folder, 'data/reno.json')
+    with open(filename) as f:
+        data = json.load(f)
+    return jsonify(data)
 
 
 if __name__ == '__main__':

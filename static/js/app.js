@@ -167,7 +167,7 @@ var ViewModel = function () {
         self.drawerVisible(!self.drawerVisible());
     };
 
-    this.getNearbyBreweries = function (position) {
+    this.getNearbyBreweries = function (position, useDummyData) {
         // Main data-driver for application. Get breweries within 30 miles of search,
         // then add to self.locationsList(). Timeout set to 3 seconds.
         var data = {
@@ -178,10 +178,14 @@ var ViewModel = function () {
             endpoint: '/search/geo/point'
         };
 
+        // If the user searched for "Reno, NV", use dummy Reno data without
+        // hitting BreweryDB API
+        var url = useDummyData ? "/reno" : "/proxy";
+
         $.ajax({
             type: "POST",
             dataType: "json",
-            url: "/proxy",
+            url: url,
             data: JSON.stringify(data),
             success: function (breweryJSON) {
                 self.errors([]);    //Unset all errors on sucess
@@ -212,11 +216,14 @@ var ViewModel = function () {
     this.searchLocation = function () {
         self.drawerVisible(false);
         self.resetLocationsList();
+
+        var useDummyData = self.addressSearch().toLowerCase() === "reno, nv";
+
         geo.geocode({'address': self.addressSearch()}, function (results, status) {
             if (status === 'OK') {
                 map.setCenter(results[0].geometry.location);
                 map.setZoom(14);
-                self.getNearbyBreweries(results[0].geometry.location);
+                self.getNearbyBreweries(results[0].geometry.location, useDummyData);
                 self.addressSearch('');
             } else {
                 self.errors.push('Cannot find location');

@@ -1,0 +1,2462 @@
+{
+  "currentPage": 1,
+  "numberOfPages": 1,
+  "totalResults": 28,
+  "data": [
+    {
+      "id": "aQZk9o",
+      "name": "Two Bald Guys Beverage Co",
+      "locality": "Reno",
+      "region": "Nevada",
+      "latitude": 39.5296329,
+      "longitude": -119.8138027,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "nano",
+      "locationTypeDisplay": "Nano Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2018-09-17 19:18:16",
+      "updateDate": "2018-09-17 19:40:06",
+      "breweryId": "7mKUda",
+      "brewery": {
+        "id": "7mKUda",
+        "name": "Two Bald Guys Beverage Co",
+        "nameShortDisplay": "Two Bald Guys Beverage Co",
+        "isOrganic": "N",
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2018-08-17 20:04:34",
+        "updateDate": "2018-08-17 20:04:34",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      }
+    },
+    {
+      "id": "6dyUqv",
+      "name": "Main Brewery",
+      "streetAddress": "Eldorado Hotel Casino",
+      "extendedAddress": "PO Box 3399",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89505",
+      "phone": "775-786-5700",
+      "website": "http://www.eldoradoreno.com/",
+      "latitude": 39.527385,
+      "longitude": -119.813439,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "brewpub",
+      "locationTypeDisplay": "Brewpub",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2012-01-03 02:41:48",
+      "updateDate": "2014-07-23 19:11:34",
+      "breweryId": "Y47bEa",
+      "brewery": {
+        "id": "Y47bEa",
+        "name": "Brew Brothers Brewery",
+        "nameShortDisplay": "Brew Brothers",
+        "description": "Named Best Brewpub in America by Nightclub & Bar magazine, The Brew Brothers offers eight custom microbrews and a creative menu, including gourmet wood-fired pizzas, salads, burgers, ribs, sandwiches, homemade soups and complete dinners. The Brew Brothers Reno brewery was also voted “Best Microbrew, “Best Beer Selection,” and “Best Live Music” in the Best of Reno poll and was named the highest selling brewpub in North America. Catch live bands and DJs nightly.",
+        "website": "http://www.eldoradoreno.com/",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/Y47bEa/upload_wmYpAn-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/Y47bEa/upload_wmYpAn-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/Y47bEa/upload_wmYpAn-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/Y47bEa/upload_wmYpAn-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/Y47bEa/upload_wmYpAn-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2012-01-03 02:41:48",
+        "updateDate": "2018-11-06 04:40:46",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "2LFCIDW8N3",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 0.2
+    },
+    {
+      "id": "UUG3lw",
+      "name": "Main Location",
+      "streetAddress": "325 EAST FOURTH STREET",
+      "locality": "Reno",
+      "region": "Nevada",
+      "latitude": 39.531084,
+      "longitude": -119.809555,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2017-07-03 00:56:04",
+      "updateDate": "2017-07-03 00:56:04",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "KMOQLK",
+      "brewery": {
+        "id": "KMOQLK",
+        "name": "The Depot",
+        "nameShortDisplay": "The Depot",
+        "description": "Our mission at The Depot is to share our pursuit and passion for transforming base ingredients into far more noble forms. Whether creating our spirits, beer or food, we subscribe to the theory that with care and passion, our craft offerings can be greater than the sum of their simple parts.  Reaching such lofty goals usually comes from experimentation with a foundation of quality ingredients and process knowledge.  Our production spaces were designed with this in mind, allowing our imaginations to run wild and offering endless possibilities to perfect our craft. With an eye toward local sourcing, quality, and the creation of products both traditional and innovative, we tender our goods to our neighbors near and far in the hope to bring an exceptional craft experience.",
+        "website": "http://thedepotreno.com",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/KMOQLK/upload_gjzKPf-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/KMOQLK/upload_gjzKPf-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/KMOQLK/upload_gjzKPf-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/KMOQLK/upload_gjzKPf-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/KMOQLK/upload_gjzKPf-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2017-06-29 14:31:11",
+        "updateDate": "2018-11-03 01:22:17",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "2C398D6YHI",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 0.2
+    },
+    {
+      "id": "nsK95f",
+      "name": "Main Brewery",
+      "streetAddress": "324 Record St",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89512",
+      "phone": "775 200 8943",
+      "website": "http://www.recordstreetbrewing.com/",
+      "latitude": 39.5306874,
+      "longitude": -119.8088458,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "Y",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2012-01-03 02:42:06",
+      "updateDate": "2016-08-22 14:13:03",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "HVOo4o",
+      "brewery": {
+        "id": "HVOo4o",
+        "name": "Record Street Brewing Co",
+        "nameShortDisplay": "Record Street",
+        "isOrganic": "N",
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2012-01-03 02:42:06",
+        "updateDate": "2018-11-02 02:13:11",
+        "isMassOwned": "N",
+        "isInBusiness": "N",
+        "brandClassification": "craft",
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 0.3
+    },
+    {
+      "id": "3koCLu",
+      "name": "Main Location",
+      "streetAddress": "415 E 4th Street",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89512",
+      "latitude": 39.5315294,
+      "longitude": -119.8084459,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2018-04-20 13:36:29",
+      "updateDate": "2018-04-20 13:36:29",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "gBvTxo",
+      "brewery": {
+        "id": "gBvTxo",
+        "name": "Lead Dog Brewing",
+        "nameShortDisplay": "Lead Dog",
+        "description": "Brewing on the front yard of the amazing Lake Tahoe.",
+        "website": "https://www.leaddogbrewing.com/",
+        "established": "2016",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/gBvTxo/upload_xvRGCb-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/gBvTxo/upload_xvRGCb-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/gBvTxo/upload_xvRGCb-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/gBvTxo/upload_xvRGCb-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/gBvTxo/upload_xvRGCb-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2018-04-13 22:53:37",
+        "updateDate": "2018-11-03 02:34:18",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "7KS8X1LZYJ",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 0.3
+    },
+    {
+      "id": "sEMFxZ",
+      "name": "Main Brewery",
+      "streetAddress": "559 E 4th St",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89512",
+      "latitude": 39.531719,
+      "longitude": -119.806426,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2014-07-25 19:53:20",
+      "updateDate": "2014-07-25 19:53:20",
+      "hoursOfOperationExplicit": {
+        "wed": [
+          {
+            "startTime": "2:00pm",
+            "endTime": "8:00pm"
+          }
+        ],
+        "thu": [
+          {
+            "startTime": "2:00pm",
+            "endTime": "8:00pm"
+          }
+        ],
+        "fri": [
+          {
+            "startTime": "2:00pm",
+            "endTime": "8:00pm"
+          }
+        ],
+        "sat": [
+          {
+            "startTime": "12:00pm",
+            "endTime": "8:00pm"
+          }
+        ],
+        "sun": [
+          {
+            "startTime": "12:00pm",
+            "endTime": "6:00pm"
+          }
+        ]
+      },
+      "hoursOfOperationExplicitString": "wed-2:00pm-8:00pm,thu-2:00pm-8:00pm,fri-2:00pm-8:00pm,sat-12:00pm-8:00pm,sun-12:00pm-6:00pm",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "2HgqlM",
+      "brewery": {
+        "id": "2HgqlM",
+        "name": "Under the Rose Brewing Company",
+        "nameShortDisplay": "Under the Rose",
+        "website": "http://www.undertherosebrewing.com",
+        "established": "2013",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/2HgqlM/upload_7KB4Su-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/2HgqlM/upload_7KB4Su-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/2HgqlM/upload_7KB4Su-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/2HgqlM/upload_7KB4Su-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/2HgqlM/upload_7KB4Su-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2014-07-25 19:28:15",
+        "updateDate": "2018-11-02 23:15:05",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "QEG87RVPIC",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 0.4
+    },
+    {
+      "id": "2k4vYl",
+      "name": "Main Brewery",
+      "streetAddress": "200 South Virginia Street",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89501",
+      "phone": "(775) 849-3376",
+      "website": "http://www.battlebornbeer.com/",
+      "latitude": 39.5228672,
+      "longitude": -119.8113477,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "Y",
+      "openToPublic": "N",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2013-11-04 18:55:38",
+      "updateDate": "2014-10-08 14:07:12",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "kqLIYf",
+      "brewery": {
+        "id": "kqLIYf",
+        "name": "Battle Born® Beer",
+        "nameShortDisplay": "Battle Born",
+        "description": "Let’s face it. Most beer is pretty damn good.\r\n\r\nSure, we’ll argue about which one we think is best.  But in the grand scheme of things, how much better can you make something that should only have about four ingredients?\r\n\r\nThat’s the way we see it anyway.\r\n\r\nPeople who only want the best beer will always be looking for it.  We’d rather just sell good beer to people who believe what we believe.\r\n\r\nBattle Born personifies those beliefs.\r\n\r\nSo while everyone else tries to invent the next pumpkin nut brown ale, we figure we’d keep it simple and build a great brand.\r\n\r\nAfter all, it’s just beer.",
+        "website": "http://www.battlebornbeer.com/",
+        "isOrganic": "N",
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2013-11-04 18:55:07",
+        "updateDate": "2018-11-02 02:13:11",
+        "isMassOwned": "N",
+        "isInBusiness": "N",
+        "brandClassification": "craft",
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 0.5
+    },
+    {
+      "id": "NpnmAJ",
+      "name": "10 Torr Distilling and Brewing",
+      "streetAddress": "490 Mill St",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89502",
+      "phone": "(775) 499-5276",
+      "website": "https://10torr.com/",
+      "latitude": 39.5255325,
+      "longitude": -119.8058148,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2018-08-15 19:13:34",
+      "updateDate": "2018-08-15 19:13:34",
+      "hoursOfOperationExplicit": {
+        "wed": [
+          {
+            "startTime": "1:00pm",
+            "endTime": "10:00pm"
+          }
+        ],
+        "thu": [
+          {
+            "startTime": "1:00pm",
+            "endTime": "10:00pm"
+          }
+        ],
+        "fri": [
+          {
+            "startTime": "1:00pm",
+            "endTime": "10:00pm"
+          }
+        ],
+        "sat": [
+          {
+            "startTime": "12:00pm",
+            "endTime": "10:00pm"
+          }
+        ],
+        "sun": [
+          {
+            "startTime": "12:00pm",
+            "endTime": "6:00pm"
+          }
+        ],
+        "mon": [
+          {
+            "startTime": "3:00pm",
+            "endTime": "9:00pm"
+          }
+        ],
+        "tue": [
+          {
+            "startTime": "3:00pm",
+            "endTime": "9:00pm"
+          }
+        ]
+      },
+      "hoursOfOperationExplicitString": "wed-1:00pm-10:00pm,thu-1:00pm-10:00pm,fri-1:00pm-10:00pm,sat-12:00pm-10:00pm,sun-12:00pm-6:00pm,mon-3:00pm-9:00pm,tue-3:00pm-9:00pm",
+      "breweryId": "9JkdJu",
+      "brewery": {
+        "id": "9JkdJu",
+        "name": "10 Torr Distilling and Brewing",
+        "nameShortDisplay": "10 Torr Distilling",
+        "description": "Torr Vacum Distillery and  Brewery is located at 490 Mill St. in Downtown Reno, the building was originally constructed in 1940 as the Ring-Lee Grocery Store.\r\n\r\nFor nearly two years we remodeled making sure to maintain as much of the original building feel as possible. Tables and chairs were made from materials we uncovered during demolition. The taproom showcases the original truss ceilings, brick masonry and maple hardwood floors and blends it with a modern design. Our outdoor patio is dog friendly for well behaved, leashed good boys and good girls. A perfect place to sip a cocktail made with 10 Torr Spirits or 10 Torr Precision Crafted Beer.",
+        "website": "https://10torr.com/",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/9JkdJu/upload_QnSOKZ-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/9JkdJu/upload_QnSOKZ-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/9JkdJu/upload_QnSOKZ-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/9JkdJu/upload_QnSOKZ-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/9JkdJu/upload_QnSOKZ-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2018-08-14 22:59:03",
+        "updateDate": "2018-08-15 19:11:18",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 0.5
+    },
+    {
+      "id": "q5xjyu",
+      "name": "Main Brewery",
+      "streetAddress": "840 E 5th St.",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89512",
+      "latitude": 39.533189,
+      "longitude": -119.802863,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2014-07-25 14:40:20",
+      "updateDate": "2014-07-25 14:40:20",
+      "hoursOfOperationExplicit": {
+        "wed": [
+          {
+            "startTime": "2:00pm",
+            "endTime": "8:00pm"
+          }
+        ],
+        "thu": [
+          {
+            "startTime": "2:00pm",
+            "endTime": "8:00pm"
+          }
+        ],
+        "fri": [
+          {
+            "startTime": "12:00pm",
+            "endTime": "8:00pm"
+          }
+        ],
+        "sat": [
+          {
+            "startTime": "12:00pm",
+            "endTime": "8:00pm"
+          }
+        ],
+        "sun": [
+          {
+            "startTime": "12:00pm",
+            "endTime": "5:00pm"
+          }
+        ]
+      },
+      "hoursOfOperationExplicitString": "wed-2:00pm-8:00pm,thu-2:00pm-8:00pm,fri-12:00pm-8:00pm,sat-12:00pm-8:00pm,sun-12:00pm-5:00pm",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "TQBZOR",
+      "brewery": {
+        "id": "TQBZOR",
+        "name": "Pigeon Head Brewery",
+        "nameShortDisplay": "Pigeon Head",
+        "description": "Production brewery specializing in Lagers and fine Seasonal Ales founded in 2014 in the Old Brewery District of Reno, Nevada.",
+        "website": "http://www.pigeonheadbrewery.com",
+        "established": "2014",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/TQBZOR/upload_GaeRgW-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/TQBZOR/upload_GaeRgW-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/TQBZOR/upload_GaeRgW-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/TQBZOR/upload_GaeRgW-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/TQBZOR/upload_GaeRgW-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2014-07-25 14:38:59",
+        "updateDate": "2018-11-03 00:50:38",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "XR8ZINFCJ7",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "Y",
+        "claims": [
+          {
+            "id": 1257,
+            "userId": 3761,
+            "user": {
+              "id": 3761,
+              "firstName": "James",
+              "lastName": "Mann",
+              "countryIsoCode": "US",
+              "email": "James@pigeonheadbrewery.com",
+              "sandboxAppLimit": 1,
+              "country": {
+                "isoCode": "US",
+                "name": "UNITED STATES",
+                "displayName": "United States",
+                "isoThree": "USA",
+                "numberCode": 840,
+                "createDate": "2012-01-03 02:41:33"
+              },
+              "createDate": "2014-07-28 18:33:15",
+              "updateDate": "2016-06-21 17:32:51"
+            },
+            "breweryId": "TQBZOR",
+            "brewery": {
+              "id": "TQBZOR",
+              "name": "Pigeon Head Brewery",
+              "nameShortDisplay": "Pigeon Head",
+              "website": "http://www.pigeonheadbrewery.com",
+              "images": {
+                "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/TQBZOR/upload_GaeRgW-icon.png",
+                "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/TQBZOR/upload_GaeRgW-medium.png",
+                "large": "https://brewerydb-images.s3.amazonaws.com/brewery/TQBZOR/upload_GaeRgW-large.png",
+                "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/TQBZOR/upload_GaeRgW-squareMedium.png",
+                "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/TQBZOR/upload_GaeRgW-squareLarge.png"
+              },
+              "status": "verified",
+              "statusDisplay": "Verified",
+              "createDate": "2014-07-25 14:38:59",
+              "updateDate": "2018-11-03 00:50:38",
+              "isInBusiness": "Y",
+              "brewersAssociation": {
+                "brewersAssocationId": "XR8ZINFCJ7",
+                "isCertifiedCraftBrewer": "Y"
+              },
+              "isVerified": "Y"
+            },
+            "verificationCode": "d778a7630ac4c21470098eea795d013b175c7505",
+            "verifiedDate": "2014-10-05 09:46:19",
+            "createDate": "2014-08-06 21:29:45",
+            "status": "verified_claim"
+          }
+        ]
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 0.6
+    },
+    {
+      "id": "412VWy",
+      "name": "The Brewer's Cabinet",
+      "streetAddress": "475 S Arlington Ave",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89501",
+      "phone": "(775) 348-7481",
+      "website": "http://thebrewerscabinet.com/",
+      "hoursOfOperation": "Monday\t11:00 am – 11:00 pm\r\nTuesday\t11:00 am – 11:00 pm\r\nWednesday\t11:00 am – 11:00 pm\r\nThursday\t11:00 am – 11:00 pm\r\nFriday\t11:00 am – 11:00 pm\r\nSaturday\t11:00 am – 11:00 pm\r\nSunday\t11:00 am – 11:00 pm",
+      "latitude": 39.5206238,
+      "longitude": -119.8174555,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "nano",
+      "locationTypeDisplay": "Nano Brewery",
+      "countryIsoCode": "US",
+      "yearOpened": "2012",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2013-03-20 21:22:38",
+      "updateDate": "2014-07-23 19:11:34",
+      "hoursOfOperationNotes": "Monday\t11:00 am – 11:00 pm\r\nTuesday\t11:00 am – 11:00 pm\r\nWednesday\t11:00 am – 11:00 pm\r\nThursday\t11:00 am – 11:00 pm\r\nFriday\t11:00 am – 11:00 pm\r\nSaturday\t11:00 am – 11:00 pm\r\nSunday\t11:00 am – 11:00 pm",
+      "breweryId": "RtFDSp",
+      "brewery": {
+        "id": "RtFDSp",
+        "name": "The Brewer's Cabinet",
+        "nameShortDisplay": "The Brewer's Cabinet",
+        "description": "Our small batch brewery allows us the flexibility not to be limited by popular fads, current trends or industry pressure in crafting our beers.\r\n\r\nOur Brew Masters have been fully empowered so that there are no limits on creativity or style. We only ask that they do what they do best and brew with passion and love. We will also be featuring an impressive selection of guest draft handles and bottle selection to help compliment our own beers.\r\n\r\nWith a small kitchen onsite, we will be creating a fresh and local menu for our customers with an emphasis on quality ingredients that pair superbly with our brews. We want to create a comfortable and relaxed atmosphere for our customers, so that they can enjoy the environment no matter what time of the day, nor what the occasion is.\r\n\r\nThe Brewer’s Cabinet will focus on spreading awareness of the local brewing community. We hope to feature local commercial breweries and their great beers, which we hope will lead to a series of collaborative projects in creating new beers. We want a strong local home brewing community, that is part of the brewery, with the invitation to come in and help design beers with our brew masters. We truly want to be a “Brewer’s Cabinet” for the Reno area!",
+        "website": "http://thebrewerscabinet.com/",
+        "established": "2012",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/RtFDSp/upload_iQYYI2-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/RtFDSp/upload_iQYYI2-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/RtFDSp/upload_iQYYI2-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/RtFDSp/upload_iQYYI2-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/RtFDSp/upload_iQYYI2-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2013-03-20 21:21:23",
+        "updateDate": "2018-11-02 23:07:09",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "4BVRCTFM9U",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 0.7
+    },
+    {
+      "id": "J1NaV0",
+      "name": "Main Brewery",
+      "streetAddress": "785 E 2nd St.",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89502",
+      "phone": "(775) 470-5996",
+      "hoursOfOperation": "Wednesdays Closed for Private Events",
+      "latitude": 39.52764,
+      "longitude": -119.800992,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2016-07-14 19:42:37",
+      "updateDate": "2016-07-14 19:42:37",
+      "hoursOfOperationExplicit": {
+        "mon": [
+          {
+            "startTime": "1:00pm",
+            "endTime": "10:00pm"
+          }
+        ],
+        "tue": [
+          {
+            "startTime": "1:00pm",
+            "endTime": "10:00pm"
+          }
+        ],
+        "thu": [
+          {
+            "startTime": "1:00pm",
+            "endTime": "10:00pm"
+          }
+        ],
+        "fri": [
+          {
+            "startTime": "1:00pm",
+            "endTime": "10:00pm"
+          }
+        ],
+        "sat": [
+          {
+            "startTime": "1:00pm",
+            "endTime": "10:00pm"
+          }
+        ],
+        "sun": [
+          {
+            "startTime": "1:00pm",
+            "endTime": "7:00pm"
+          }
+        ]
+      },
+      "hoursOfOperationExplicitString": "mon-1:00pm-10:00pm,tue-1:00pm-10:00pm,thu-1:00pm-10:00pm,fri-1:00pm-10:00pm,sat-1:00pm-10:00pm,sun-1:00pm-7:00pm",
+      "hoursOfOperationNotes": "Wednesdays Closed for Private Events",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "hCuHyc",
+      "brewery": {
+        "id": "hCuHyc",
+        "name": "IMBĪB Custom Brews",
+        "nameShortDisplay": "IMBĪB",
+        "description": "IMBĪB Custom Brews is a brewery experience like no other. Imbibe means to receive into the mind and retain and we invite you to imbibe our beer by joining us in our taproom for tasters, pints, or growlers. We specialize in old-world barrel aged beers, but also have a variety of malty, hoppy, and easy drinking brews to meet the expectations of every beer lover. We want to engage our customers on a deeper level which is why we offer a membership club, custom recipe project, and educational experiences.",
+        "website": "http://www.imbibreno.com",
+        "established": "2015",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/hCuHyc/upload_jtiycn-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/hCuHyc/upload_jtiycn-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/hCuHyc/upload_jtiycn-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/hCuHyc/upload_jtiycn-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/hCuHyc/upload_jtiycn-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2016-06-24 19:50:35",
+        "updateDate": "2018-11-03 01:31:46",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "6HLNB43ZKM",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "Y",
+        "claims": [
+          {
+            "id": 623,
+            "userId": 13758,
+            "user": {
+              "id": 13758,
+              "firstName": "Matt",
+              "lastName": "Johnson",
+              "countryIsoCode": "US",
+              "email": "matt@imbibreno.com",
+              "sandboxAppLimit": 1,
+              "country": {
+                "isoCode": "US",
+                "name": "UNITED STATES",
+                "displayName": "United States",
+                "isoThree": "USA",
+                "numberCode": 840,
+                "createDate": "2012-01-03 02:41:33"
+              },
+              "createDate": "2017-06-20 16:24:00"
+            },
+            "breweryId": "hCuHyc",
+            "brewery": {
+              "id": "hCuHyc",
+              "name": "IMBĪB Custom Brews",
+              "nameShortDisplay": "IMBĪB",
+              "website": "http://www.imbibreno.com",
+              "images": {
+                "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/hCuHyc/upload_jtiycn-icon.png",
+                "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/hCuHyc/upload_jtiycn-medium.png",
+                "large": "https://brewerydb-images.s3.amazonaws.com/brewery/hCuHyc/upload_jtiycn-large.png",
+                "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/hCuHyc/upload_jtiycn-squareMedium.png",
+                "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/hCuHyc/upload_jtiycn-squareLarge.png"
+              },
+              "status": "verified",
+              "statusDisplay": "Verified",
+              "createDate": "2016-06-24 19:50:35",
+              "updateDate": "2018-11-03 01:31:46",
+              "isInBusiness": "Y",
+              "brewersAssociation": {
+                "brewersAssocationId": "6HLNB43ZKM",
+                "isCertifiedCraftBrewer": "Y"
+              },
+              "isVerified": "Y"
+            },
+            "verificationCode": "a7804e3032182b61c3d28b69f602b338048abf0b",
+            "verifiedDate": "2017-06-20 12:57:30",
+            "createDate": "2017-06-20 16:24:36",
+            "status": "verified_claim"
+          }
+        ]
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 0.7
+    },
+    {
+      "id": "gKlJgP",
+      "name": "Main Brewery",
+      "streetAddress": "901 S. Center St",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89501",
+      "phone": "(775) 348-8888",
+      "website": "http://brasseriesaintjames.com/",
+      "hoursOfOperation": "Monday11:00 am – 12:00 am\r\nTuesday11:00 am – 12:00 am\r\nWednesday11:00 am – 12:00 am\r\nThursday11:00 am – 12:00 am\r\nFriday11:00 am – 12:00 am\r\nSaturday11:00 am – 12:00 am\r\nSunday11:00 am – 12:00 am",
+      "latitude": 39.516517,
+      "longitude": -119.807433,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "yearOpened": "2012",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2013-03-20 21:25:05",
+      "updateDate": "2014-09-29 20:36:27",
+      "hoursOfOperationExplicit": {
+        "mon": [
+          {
+            "startTime": "11:00am",
+            "endTime": "12:00am"
+          }
+        ],
+        "tue": [
+          {
+            "startTime": "11:00am",
+            "endTime": "12:00am"
+          }
+        ],
+        "wed": [
+          {
+            "startTime": "11:00am",
+            "endTime": "12:00am"
+          }
+        ],
+        "thu": [
+          {
+            "startTime": "11:00am",
+            "endTime": "12:00am"
+          }
+        ],
+        "fri": [
+          {
+            "startTime": "11:00am",
+            "endTime": "12:00am"
+          }
+        ],
+        "sat": [
+          {
+            "startTime": "11:00am",
+            "endTime": "12:00am"
+          }
+        ],
+        "sun": [
+          {
+            "startTime": "11:00am",
+            "endTime": "12:00am"
+          }
+        ]
+      },
+      "hoursOfOperationExplicitString": "mon-11:00am-12:00am,tue-11:00am-12:00am,wed-11:00am-12:00am,thu-11:00am-12:00am,fri-11:00am-12:00am,sat-11:00am-12:00am,sun-11:00am-12:00am",
+      "hoursOfOperationNotes": "Monday11:00 am – 12:00 am\r\nTuesday11:00 am – 12:00 am\r\nWednesday11:00 am – 12:00 am\r\nThursday11:00 am – 12:00 am\r\nFriday11:00 am – 12:00 am\r\nSaturday11:00 am – 12:00 am\r\nSunday11:00 am – 12:00 am",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "nN4dSc",
+      "brewery": {
+        "id": "nN4dSc",
+        "name": "Brasserie St. James",
+        "nameShortDisplay": "Brasserie St. James",
+        "description": "We make beers for all palates. A lot of our beers have been lovingly referred to as so finely crafted that they seem to be made for a serious wine drinkers palate. A saying goes in wine making, \"it takes a lot of good beer to make good wine...\". The point being, we make complex, delicate, nuanced beers, not just the same typical west coast hop bombs or dark extremely high alcohol brews (though we make quality versions of those too). Our goal is to show the whole spectrum of beer, its history, and its evolution. To show beer its proper reverence, as not only \"The people's beverage\", but one that pairs as well with food as wine, and when it's skillfully crafted and not over hopped to hide the flaws in production, it does. The truth is, it takes more skill to make a delicate lager, than a double IPA. You would be hard pressed to find anyone more passionate and knowledgeable about beer than myself or my brewer Josh Watterson. We welcome you to come down to our weekly brewery tours, and discuss all things beer, food, wine, or whatever be the topic of the day!",
+        "website": "http://brasseriesaintjames.com/",
+        "established": "2012",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/nN4dSc/upload_FEvlDK-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/nN4dSc/upload_FEvlDK-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/nN4dSc/upload_FEvlDK-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/nN4dSc/upload_FEvlDK-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/nN4dSc/upload_FEvlDK-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2012-01-03 02:41:48",
+        "updateDate": "2018-11-02 22:42:44",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "16DUA87PNM",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "Y",
+        "claims": [
+          {
+            "id": 943,
+            "userId": 4572,
+            "user": {
+              "id": 4572,
+              "firstName": "Jordan",
+              "lastName": "Moore",
+              "countryIsoCode": "US",
+              "email": "jordan.brasseriesaintjames@gmail.com",
+              "sandboxAppLimit": 1,
+              "country": {
+                "isoCode": "US",
+                "name": "UNITED STATES",
+                "displayName": "United States",
+                "isoThree": "USA",
+                "numberCode": 840,
+                "createDate": "2012-01-03 02:41:33"
+              },
+              "createDate": "2014-09-17 22:34:30"
+            },
+            "breweryId": "nN4dSc",
+            "brewery": {
+              "id": "nN4dSc",
+              "name": "Brasserie St. James",
+              "nameShortDisplay": "Brasserie St. James",
+              "website": "http://brasseriesaintjames.com/",
+              "images": {
+                "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/nN4dSc/upload_FEvlDK-icon.png",
+                "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/nN4dSc/upload_FEvlDK-medium.png",
+                "large": "https://brewerydb-images.s3.amazonaws.com/brewery/nN4dSc/upload_FEvlDK-large.png",
+                "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/nN4dSc/upload_FEvlDK-squareMedium.png",
+                "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/nN4dSc/upload_FEvlDK-squareLarge.png"
+              },
+              "status": "verified",
+              "statusDisplay": "Verified",
+              "createDate": "2012-01-03 02:41:48",
+              "updateDate": "2018-11-02 22:42:44",
+              "isInBusiness": "Y",
+              "brewersAssociation": {
+                "brewersAssocationId": "16DUA87PNM",
+                "isCertifiedCraftBrewer": "Y"
+              },
+              "isVerified": "Y"
+            },
+            "verificationCode": "a63e5af41e6642a781c91b503649af9b2cc37561",
+            "verifiedDate": "2015-01-29 01:11:56",
+            "createDate": "2014-09-17 18:42:04",
+            "status": "verified_claim"
+          }
+        ]
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 1
+    },
+    {
+      "id": "0UlisL",
+      "name": "Main Brewery",
+      "streetAddress": "124 Wonder Street",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89502",
+      "phone": "775-324-3970",
+      "website": "http://silverpeakbrewery.com/",
+      "latitude": 39.513765,
+      "longitude": -119.805946,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "yearOpened": "1991",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2012-01-03 02:42:08",
+      "updateDate": "2014-07-23 19:11:34",
+      "breweryId": "CpYuuR",
+      "brewery": {
+        "id": "CpYuuR",
+        "name": "Silver Peak Brewery And Restaurant",
+        "nameShortDisplay": "Silver Peak Brewery And Restaurant",
+        "description": "The Silver Peak Restaurant and Brewery was born from a friendship and a dream. We came up with the concept in the late 80?s, about seven years after we met.\r\nWe’d been talking about opening a business together for years. We eventually narrowed the field down to the idea of an upscale, modern-version of the classic brewpub. Then in 1991 the idea became a goal. That goal was to create a unique place in Reno; a restaurant and brewery where the service was as good as the food and the beer was worth coming back for; a place where locals could meet friends after work, or treat their dates and clients to original and delicious dishes.",
+        "website": "http://silverpeakbrewery.com/",
+        "established": "1991",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/CpYuuR/upload_iyWdfq-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/CpYuuR/upload_iyWdfq-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/CpYuuR/upload_iyWdfq-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/CpYuuR/upload_iyWdfq-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/CpYuuR/upload_iyWdfq-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2012-01-03 02:42:08",
+        "updateDate": "2018-11-02 21:06:43",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "0EX8GKO93U",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 1.2
+    },
+    {
+      "id": "zOm5U0",
+      "name": "Main Brewery",
+      "streetAddress": "865 S. Rock Blvd.",
+      "locality": "Sparks",
+      "region": "Nevada",
+      "phone": "(775) 398-4200",
+      "latitude": 39.5266567,
+      "longitude": -119.7674485,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2015-09-28 15:52:24",
+      "updateDate": "2015-09-28 15:52:24",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "ffxw30",
+      "brewery": {
+        "id": "ffxw30",
+        "name": "High Sierra Brewing Company",
+        "nameShortDisplay": "High Sierra",
+        "website": "http://highsierrabrewco.com/",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/ffxw30/upload_bAhvxw-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/ffxw30/upload_bAhvxw-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/ffxw30/upload_bAhvxw-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/ffxw30/upload_bAhvxw-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/ffxw30/upload_bAhvxw-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2015-09-28 15:51:27",
+        "updateDate": "2015-12-22 16:16:55",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 2.5
+    },
+    {
+      "id": "1bDrKm",
+      "name": "Main Brewery",
+      "streetAddress": "380 S Rock Blvd",
+      "locality": "Sparks",
+      "region": "Nevada",
+      "postalCode": "89431",
+      "phone": "(775) 331-2739",
+      "website": "http://revisionbrewing.com/",
+      "latitude": 39.531165,
+      "longitude": -119.765523,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2017-05-11 19:11:14",
+      "updateDate": "2017-05-11 19:11:14",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "VIpYwk",
+      "brewery": {
+        "id": "VIpYwk",
+        "name": "Revision Brewing Company",
+        "nameShortDisplay": "Revision",
+        "description": "Revision Brewing was founded on the principal of having an evolutionary spirit.  Add to this our respect for craft beer and the result is the quality you get with a Revision Brewing Company beer.\r\n\r\n“Respect craft beer” refers to a genuine appreciation for all aspects of the craft beer culture:  passion, process, ingredients, people, and of course the beer itself.",
+        "website": "http://revisionbrewing.com/",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/VIpYwk/upload_Fshymo-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/VIpYwk/upload_Fshymo-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/VIpYwk/upload_Fshymo-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/VIpYwk/upload_Fshymo-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/VIpYwk/upload_Fshymo-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2017-05-07 12:25:19",
+        "updateDate": "2018-11-03 01:57:02",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "KZGJSCODV6",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "Y",
+        "claims": [
+          {
+            "id": 1338,
+            "userId": 19893,
+            "user": {
+              "id": 19893,
+              "firstName": "Darla",
+              "lastName": "Roberts",
+              "countryIsoCode": "US",
+              "email": "darla@revisionbeer.com",
+              "sandboxAppLimit": 1,
+              "country": {
+                "isoCode": "US",
+                "name": "UNITED STATES",
+                "displayName": "United States",
+                "isoThree": "USA",
+                "numberCode": 840,
+                "createDate": "2012-01-03 02:41:33"
+              },
+              "createDate": "2018-08-20 23:56:42"
+            },
+            "breweryId": "VIpYwk",
+            "brewery": {
+              "id": "VIpYwk",
+              "name": "Revision Brewing Company",
+              "nameShortDisplay": "Revision",
+              "website": "http://revisionbrewing.com/",
+              "images": {
+                "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/VIpYwk/upload_Fshymo-icon.png",
+                "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/VIpYwk/upload_Fshymo-medium.png",
+                "large": "https://brewerydb-images.s3.amazonaws.com/brewery/VIpYwk/upload_Fshymo-large.png",
+                "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/VIpYwk/upload_Fshymo-squareMedium.png",
+                "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/VIpYwk/upload_Fshymo-squareLarge.png"
+              },
+              "status": "verified",
+              "statusDisplay": "Verified",
+              "createDate": "2017-05-07 12:25:19",
+              "updateDate": "2018-11-03 01:57:02",
+              "isInBusiness": "Y",
+              "brewersAssociation": {
+                "brewersAssocationId": "KZGJSCODV6",
+                "isCertifiedCraftBrewer": "Y"
+              },
+              "isVerified": "Y"
+            },
+            "verificationCode": "8433bf8c013f37194e1ec01156aab3d91b64cead",
+            "verifiedDate": "2018-08-23 16:06:24",
+            "createDate": "2018-08-20 23:58:07",
+            "status": "verified_claim"
+          }
+        ]
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 2.6
+    },
+    {
+      "id": "oPFGVt",
+      "name": "Sparks",
+      "streetAddress": "846 Victorian Ave",
+      "locality": "Sparks",
+      "region": "Nevada",
+      "postalCode": "89431",
+      "phone": "775-355-7711",
+      "website": "http://greatbasinbrewingco.com/",
+      "latitude": 39.5348301,
+      "longitude": -119.7539518,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2012-01-03 02:41:56",
+      "updateDate": "2014-08-23 16:41:53",
+      "breweryId": "ordLJI",
+      "brewery": {
+        "id": "ordLJI",
+        "name": "Great Basin Brewing Company",
+        "nameShortDisplay": "Great Basin",
+        "description": "Great Basin Brewing Co. makes fresh hand-crafted beer right before your eyes using the finest American & European grains, hops & yeast. The rugged beauty and free spirit of this region have inspired the creation of the brewery and the beers that you enjoy. We invite you to celebrate our heritage with us.",
+        "website": "http://greatbasinbrewingco.com/",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/ordLJI/upload_t3u3YF-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/ordLJI/upload_t3u3YF-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/ordLJI/upload_t3u3YF-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/ordLJI/upload_t3u3YF-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/ordLJI/upload_t3u3YF-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2012-01-03 02:41:56",
+        "updateDate": "2018-11-06 04:23:39",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "UGJ9ZRVIE0",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 3.2
+    },
+    {
+      "id": "8jG2mH",
+      "name": "Main Cidery",
+      "streetAddress": "260 Freeport Blvd",
+      "locality": "Sparks",
+      "region": "Nevada",
+      "postalCode": "89431",
+      "phone": "775.359.1111",
+      "website": "http://www.commoncider.com/",
+      "latitude": 39.5260784,
+      "longitude": -119.745443,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "N",
+      "locationType": "cidery",
+      "locationTypeDisplay": "Cidery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2016-05-12 19:58:28",
+      "updateDate": "2016-05-12 19:58:28",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "ddIHjd",
+      "brewery": {
+        "id": "ddIHjd",
+        "name": "Common Cider Company",
+        "nameShortDisplay": "Common Cider",
+        "website": "http://www.commoncider.com",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/ddIHjd/upload_r74Y5o-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/ddIHjd/upload_r74Y5o-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/ddIHjd/upload_r74Y5o-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/ddIHjd/upload_r74Y5o-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/ddIHjd/upload_r74Y5o-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2016-05-08 02:56:54",
+        "updateDate": "2016-05-12 19:57:28",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 3.7
+    },
+    {
+      "id": "Sj0Xg6",
+      "name": "Reno",
+      "streetAddress": "5525 S. Virginia Street",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89502",
+      "phone": "7752847711",
+      "website": "http://www.greatbasinbrewingco.com/",
+      "latitude": 39.4762493,
+      "longitude": -119.7900009,
+      "isPrimary": "N",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2014-08-21 21:59:17",
+      "updateDate": "2014-08-23 16:42:24",
+      "hoursOfOperationExplicit": {
+        "sun": [
+          {
+            "startTime": "11:00am",
+            "endTime": "9:00pm"
+          }
+        ],
+        "tue": [
+          {
+            "startTime": "11:00am",
+            "endTime": "10:00pm"
+          }
+        ],
+        "wed": [
+          {
+            "startTime": "11:00am",
+            "endTime": "10:00pm"
+          }
+        ],
+        "thu": [
+          {
+            "startTime": "11:00am",
+            "endTime": "10:00pm"
+          }
+        ],
+        "fri": [
+          {
+            "startTime": "11:00am",
+            "endTime": "10:00pm"
+          }
+        ],
+        "sat": [
+          {
+            "startTime": "11:00am",
+            "endTime": "10:00pm"
+          }
+        ]
+      },
+      "hoursOfOperationExplicitString": "sun-11:00am-9:00pm,tue-11:00am-10:00pm,wed-11:00am-10:00pm,thu-11:00am-10:00pm,fri-11:00am-10:00pm,sat-11:00am-10:00pm",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "ordLJI",
+      "brewery": {
+        "id": "ordLJI",
+        "name": "Great Basin Brewing Company",
+        "nameShortDisplay": "Great Basin",
+        "description": "Great Basin Brewing Co. makes fresh hand-crafted beer right before your eyes using the finest American & European grains, hops & yeast. The rugged beauty and free spirit of this region have inspired the creation of the brewery and the beers that you enjoy. We invite you to celebrate our heritage with us.",
+        "website": "http://greatbasinbrewingco.com/",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/ordLJI/upload_t3u3YF-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/ordLJI/upload_t3u3YF-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/ordLJI/upload_t3u3YF-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/ordLJI/upload_t3u3YF-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/ordLJI/upload_t3u3YF-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2012-01-03 02:41:56",
+        "updateDate": "2018-11-06 04:23:39",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "UGJ9ZRVIE0",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 3.9
+    },
+    {
+      "id": "eUykxk",
+      "name": "Main Brewery",
+      "streetAddress": "1155 S. Rock Blvd",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89502",
+      "phone": "775-857-4444",
+      "website": "http://www.buckbeanbeer.com/",
+      "latitude": 39.4978546,
+      "longitude": -119.750399,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "Y",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "yearOpened": "2008",
+      "yearClosed": "2012",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2012-01-03 02:41:49",
+      "updateDate": "2014-07-23 19:11:34",
+      "breweryId": "oDJkQb",
+      "brewery": {
+        "id": "oDJkQb",
+        "name": "Buckbean Brewing Company",
+        "nameShortDisplay": "Buckbean",
+        "description": "Buckbean Brewing Company — the first package brewery in Western Nevada and the second of three in the Silver State — began operations in a new 7,600-square-foot facility in Reno, NV in April 2008. Buckbean Brewing Company debuted with two styles of beer in 16 oz. cans, which has now grown to three, but also offers different styles on tap. The brewery houses a tasting room and offers guided tours free of charge.\r\n\r\nBuckbean Brewing Company is the vision of Reno native Douglas S. Booth and Veteran brewmaster Daniel B. Kahn. These two self described “beer junkies” joined up in 2004 to create a new kind of microbrew appealing to both male and female beer drinkers.",
+        "website": "http://www.buckbeanbeer.com/",
+        "established": "2008",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/oDJkQb/upload_weLuwS-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/oDJkQb/upload_weLuwS-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/oDJkQb/upload_weLuwS-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/oDJkQb/upload_weLuwS-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/oDJkQb/upload_weLuwS-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2012-01-03 02:41:49",
+        "updateDate": "2018-11-02 02:13:11",
+        "isMassOwned": "N",
+        "isInBusiness": "N",
+        "brandClassification": "craft",
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 4
+    },
+    {
+      "id": "GfrjOa",
+      "name": "Main Brewery",
+      "streetAddress": "5301 Longley Ln 97 C",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89511",
+      "phone": "(775) 829-2337",
+      "hoursOfOperation": "Wednesday & Thursday: 4pm-7pm\r\nFriday: 4pm – 8pm\r\nSaturday: Noon – 6pm",
+      "latitude": 39.4728913,
+      "longitude": -119.766984,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "tasting",
+      "locationTypeDisplay": "Tasting Room",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2015-09-16 19:03:47",
+      "updateDate": "2015-09-16 19:03:47",
+      "hoursOfOperationNotes": "Wednesday & Thursday: 4pm-7pm\r\nFriday: 4pm – 8pm\r\nSaturday: Noon – 6pm",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "kS0TdN",
+      "brewery": {
+        "id": "kS0TdN",
+        "name": "Stoneyhead Brewing Co.",
+        "nameShortDisplay": "Stoneyhead",
+        "description": "We are a Reno Brewery Company with a great selection of delicious microbrew ranging from our dark porter to our honey pale ale.",
+        "website": "http://www.stoneyheadbrewing.com/",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/kS0TdN/upload_Ey4qim-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/kS0TdN/upload_Ey4qim-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/kS0TdN/upload_Ey4qim-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/kS0TdN/upload_Ey4qim-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/kS0TdN/upload_Ey4qim-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2015-09-16 15:05:12",
+        "updateDate": "2018-11-03 01:10:50",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "7AUVFC5QIO",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 4.6
+    },
+    {
+      "id": "u3uZ9B",
+      "name": "Sparks",
+      "streetAddress": "425 Sparks Blvd.",
+      "locality": "Sparks",
+      "region": "Nevada",
+      "postalCode": "89434",
+      "phone": "775.398.3550",
+      "hoursOfOperation": "11am-12am Sunday-Thursday\n11am-1am Friday & Saturday",
+      "latitude": 39.53364,
+      "longitude": -119.715359,
+      "isPrimary": "N",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "brewpub",
+      "locationTypeDisplay": "Brewpub",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2012-04-17 13:21:42",
+      "updateDate": "2014-07-23 19:11:34",
+      "hoursOfOperationNotes": "11am-12am Sunday-Thursday\n11am-1am Friday & Saturday",
+      "breweryId": "CJ7aEv",
+      "brewery": {
+        "id": "CJ7aEv",
+        "name": "BJ's Restaurant and Brewery",
+        "nameShortDisplay": "BJ's Restaurant",
+        "description": "To brew consistently great beer in a variety of ale and lager styles. That's really what BJ's beer is all about.\r\n\r\nAt BJ's we recognize that brewing is both an art and a science.\r\n\r\nWe also respect the vast variety of beer styles that the world has to offer - from the delicate balance of German Kolsch to the robust intensity of Russian Imperial Stout.\r\n\r\nOur Passionate and talented team of brewers strives toward one simple goal: to brew consistently great beer in a variety of ale and lager styles. That's really what BJ's beer is all about.",
+        "website": "http://www.bjsrestaurants.com/",
+        "established": "1978",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/CJ7aEv/upload_Z20fd8-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/CJ7aEv/upload_Z20fd8-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/CJ7aEv/upload_Z20fd8-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/CJ7aEv/upload_Z20fd8-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/CJ7aEv/upload_Z20fd8-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2012-01-03 02:41:46",
+        "updateDate": "2018-11-06 04:46:05",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "86P2N7IWF9",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "N",
+        "guilds": [
+          {
+            "id": "TGtEbk",
+            "name": "Arizona Craft Brewers Guild",
+            "description": "The Arizona Craft Brewers Guild was established in 1998. It is recognized as a not-for- profit 501 (c) (6) organization. Members are comprised of registered Arizona breweries. Associate Memberships are granted to businesses and organizations that have some relationship to the brewing industry.\r\n\r\nThe principal objective of the Guild is to promote the craft brewing industry in Arizona by providing educational opportunities for brewers, distributors and consumers. Member breweries are encouraged to attend national conferences on craft brewing. The Guild acts as an open forum for communication between members. The Guild members participate in local and national beer festivals to make the public aware of the various types and styles of beer produced in Arizona. The Guild informs members of legal and legislative issues that are relevant to the craft brewing industry.\r\n\r\nThe Arizona Craft Brewers Guild encourages responsible consumption of brewery products.",
+            "established": "1998",
+            "website": "http://www.azbrewguild.com/",
+            "status": "verified",
+            "statusDisplay": "Verified",
+            "createDate": "2012-01-03 02:41:33",
+            "updateDate": "2018-11-02 02:32:00"
+          },
+          {
+            "id": "cJio9R",
+            "name": "Brewers Association",
+            "description": "The Brewers Association is an organization of brewers, for brewers and by brewers. More than 1,300 US brewery members and 27,000 members of the American Homebrewers Association are joined by members of the allied trade, beer wholesalers, individuals, other associate members and the Brewers Association staff to make up the Brewers Association.",
+            "established": "2005",
+            "website": "http://www.brewersassociation.org/",
+            "status": "verified",
+            "statusDisplay": "Verified",
+            "createDate": "2012-01-03 02:41:33",
+            "updateDate": "2018-11-02 02:30:21",
+            "discount": "AHA Member Deals: 10% off Food & Merchandise (Dine-in/In-store Only, not valid during Happy Hour) & $2 Off Admission to BJ's Beer Events (except where prohibited)"
+          },
+          {
+            "id": "Glq8HX",
+            "name": "Brewers of Indiana Guild",
+            "description": "Brewers of Indiana Guild was organized in 2000 to provide a unifying voice for the craft breweries and brewpubs of Indiana. We promote public awareness and appreciation for the award-winning quality and variety of beer produced in Indiana, advocate for favorable regulatory treatment from state and federal agencies, provide support to brewers throughout the state, and, along with the City of Indianapolis, co-own Tomlinson Tap Room, where you’ll find only Indiana beers all the time.\r\n\r\nSince Indiana’s oldest brewery, Broad Ripple Brewpub, opened its doors in 1990, the number of Indiana breweries has increased dramatically to nearly 100. Our brewers bring home medals from the most prestigious competitions in the United States, like the Brewers Association‘s Great American Beer Festival and the World Beer Cup.\r\n\r\nBrewers of Indiana Guild is the driving force behind the Drink Indiana Beer public awareness campaign which strives to support Indiana’s craft breweries in a variety of ways.",
+            "established": "2000",
+            "website": "http://www.drinkIN.beer",
+            "status": "verified",
+            "statusDisplay": "Verified",
+            "createDate": "2012-01-03 02:41:33",
+            "updateDate": "2015-03-02 19:49:17"
+          },
+          {
+            "id": "huKquc",
+            "name": "California Craft Brewers Association",
+            "description": "The California Craft Brewers Association is a 501(c)6 non-profit trade association representing the craft and specialty brewing industry in California.\r\n\r\nThe primary function of the CCBA is to monitor legislative activity at the state Capitol and to provide a single and coherent political voice that represents the interests of all of California's craft breweries.\r\n\r\nAdditionally, the CCBA provides a broad realm of services for the craft brewing community, which includes addressing critical business and supply issues, developing marketing campaigns that promote California produced craft beer and offering gatherings and events to help foster communication and education among our family of brewers.\r\n\r\nThe CCBA is proud to represent the rich and diverse collection of artisans and entrepreneurs that make up the family of California's small brewers.",
+            "website": "http://www.californiacraftbeer.com",
+            "status": "verified",
+            "statusDisplay": "Verified",
+            "createDate": "2012-01-03 02:41:33",
+            "updateDate": "2018-11-02 02:32:28"
+          },
+          {
+            "id": "p85u1P",
+            "name": "Orange County Brewers Guild",
+            "description": "Who We Are: The Orange County Brewers Guild is an organization dedicated to educating the public of the great American tradition of craft beer and its rich brewing culture in Orange County.\r\n\r\nOur Mission: With over 35 established craft breweries within the county’s borders, the OC Brewers Guild strives to bring to the public visibility and knowledge of the rich and constantly growing brewing culture present in Orange County. Established in early 2015, the guild aims to:\r\n\r\nEducate the public of the benefits of fresh, local beer\r\nPromote the interests of breweries located within Orange County\r\nParticipate in and create local community events to raise funds for charities and increase public awareness of locally available craft beer\r\nAs the organization continues to develop and expand, it hopes to cultivate a passion for craft beer in the general community and inspire the public to seek out their local artisan breweries.",
+            "established": "2015",
+            "website": "http://www.ocbrewers.org",
+            "status": "verified",
+            "statusDisplay": "Verified",
+            "createDate": "2017-06-20 22:26:03",
+            "updateDate": "2018-11-02 02:33:20"
+          }
+        ]
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 5.3
+    },
+    {
+      "id": "HkBkzk",
+      "name": "Reno",
+      "streetAddress": "13999 South Virginia",
+      "locality": "Reno",
+      "region": "Nevada",
+      "postalCode": "89511",
+      "phone": "775.853.7575",
+      "hoursOfOperation": "11am-11pm Monday-Thursday\n11am-1am Friday\n10am-1am Saturday\n10am-11pm Sunday",
+      "latitude": 39.405466,
+      "longitude": -119.747951,
+      "isPrimary": "N",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "brewpub",
+      "locationTypeDisplay": "Brewpub",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2012-04-17 13:21:40",
+      "updateDate": "2014-07-23 19:11:34",
+      "hoursOfOperationNotes": "11am-11pm Monday-Thursday\n11am-1am Friday\n10am-1am Saturday\n10am-11pm Sunday",
+      "breweryId": "CJ7aEv",
+      "brewery": {
+        "id": "CJ7aEv",
+        "name": "BJ's Restaurant and Brewery",
+        "nameShortDisplay": "BJ's Restaurant",
+        "description": "To brew consistently great beer in a variety of ale and lager styles. That's really what BJ's beer is all about.\r\n\r\nAt BJ's we recognize that brewing is both an art and a science.\r\n\r\nWe also respect the vast variety of beer styles that the world has to offer - from the delicate balance of German Kolsch to the robust intensity of Russian Imperial Stout.\r\n\r\nOur Passionate and talented team of brewers strives toward one simple goal: to brew consistently great beer in a variety of ale and lager styles. That's really what BJ's beer is all about.",
+        "website": "http://www.bjsrestaurants.com/",
+        "established": "1978",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/CJ7aEv/upload_Z20fd8-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/CJ7aEv/upload_Z20fd8-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/CJ7aEv/upload_Z20fd8-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/CJ7aEv/upload_Z20fd8-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/CJ7aEv/upload_Z20fd8-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2012-01-03 02:41:46",
+        "updateDate": "2018-11-06 04:46:05",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "86P2N7IWF9",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "N",
+        "guilds": [
+          {
+            "id": "TGtEbk",
+            "name": "Arizona Craft Brewers Guild",
+            "description": "The Arizona Craft Brewers Guild was established in 1998. It is recognized as a not-for- profit 501 (c) (6) organization. Members are comprised of registered Arizona breweries. Associate Memberships are granted to businesses and organizations that have some relationship to the brewing industry.\r\n\r\nThe principal objective of the Guild is to promote the craft brewing industry in Arizona by providing educational opportunities for brewers, distributors and consumers. Member breweries are encouraged to attend national conferences on craft brewing. The Guild acts as an open forum for communication between members. The Guild members participate in local and national beer festivals to make the public aware of the various types and styles of beer produced in Arizona. The Guild informs members of legal and legislative issues that are relevant to the craft brewing industry.\r\n\r\nThe Arizona Craft Brewers Guild encourages responsible consumption of brewery products.",
+            "established": "1998",
+            "website": "http://www.azbrewguild.com/",
+            "status": "verified",
+            "statusDisplay": "Verified",
+            "createDate": "2012-01-03 02:41:33",
+            "updateDate": "2018-11-02 02:32:00"
+          },
+          {
+            "id": "cJio9R",
+            "name": "Brewers Association",
+            "description": "The Brewers Association is an organization of brewers, for brewers and by brewers. More than 1,300 US brewery members and 27,000 members of the American Homebrewers Association are joined by members of the allied trade, beer wholesalers, individuals, other associate members and the Brewers Association staff to make up the Brewers Association.",
+            "established": "2005",
+            "website": "http://www.brewersassociation.org/",
+            "status": "verified",
+            "statusDisplay": "Verified",
+            "createDate": "2012-01-03 02:41:33",
+            "updateDate": "2018-11-02 02:30:21",
+            "discount": "AHA Member Deals: 10% off Food & Merchandise (Dine-in/In-store Only, not valid during Happy Hour) & $2 Off Admission to BJ's Beer Events (except where prohibited)"
+          },
+          {
+            "id": "Glq8HX",
+            "name": "Brewers of Indiana Guild",
+            "description": "Brewers of Indiana Guild was organized in 2000 to provide a unifying voice for the craft breweries and brewpubs of Indiana. We promote public awareness and appreciation for the award-winning quality and variety of beer produced in Indiana, advocate for favorable regulatory treatment from state and federal agencies, provide support to brewers throughout the state, and, along with the City of Indianapolis, co-own Tomlinson Tap Room, where you’ll find only Indiana beers all the time.\r\n\r\nSince Indiana’s oldest brewery, Broad Ripple Brewpub, opened its doors in 1990, the number of Indiana breweries has increased dramatically to nearly 100. Our brewers bring home medals from the most prestigious competitions in the United States, like the Brewers Association‘s Great American Beer Festival and the World Beer Cup.\r\n\r\nBrewers of Indiana Guild is the driving force behind the Drink Indiana Beer public awareness campaign which strives to support Indiana’s craft breweries in a variety of ways.",
+            "established": "2000",
+            "website": "http://www.drinkIN.beer",
+            "status": "verified",
+            "statusDisplay": "Verified",
+            "createDate": "2012-01-03 02:41:33",
+            "updateDate": "2015-03-02 19:49:17"
+          },
+          {
+            "id": "huKquc",
+            "name": "California Craft Brewers Association",
+            "description": "The California Craft Brewers Association is a 501(c)6 non-profit trade association representing the craft and specialty brewing industry in California.\r\n\r\nThe primary function of the CCBA is to monitor legislative activity at the state Capitol and to provide a single and coherent political voice that represents the interests of all of California's craft breweries.\r\n\r\nAdditionally, the CCBA provides a broad realm of services for the craft brewing community, which includes addressing critical business and supply issues, developing marketing campaigns that promote California produced craft beer and offering gatherings and events to help foster communication and education among our family of brewers.\r\n\r\nThe CCBA is proud to represent the rich and diverse collection of artisans and entrepreneurs that make up the family of California's small brewers.",
+            "website": "http://www.californiacraftbeer.com",
+            "status": "verified",
+            "statusDisplay": "Verified",
+            "createDate": "2012-01-03 02:41:33",
+            "updateDate": "2018-11-02 02:32:28"
+          },
+          {
+            "id": "p85u1P",
+            "name": "Orange County Brewers Guild",
+            "description": "Who We Are: The Orange County Brewers Guild is an organization dedicated to educating the public of the great American tradition of craft beer and its rich brewing culture in Orange County.\r\n\r\nOur Mission: With over 35 established craft breweries within the county’s borders, the OC Brewers Guild strives to bring to the public visibility and knowledge of the rich and constantly growing brewing culture present in Orange County. Established in early 2015, the guild aims to:\r\n\r\nEducate the public of the benefits of fresh, local beer\r\nPromote the interests of breweries located within Orange County\r\nParticipate in and create local community events to raise funds for charities and increase public awareness of locally available craft beer\r\nAs the organization continues to develop and expand, it hopes to cultivate a passion for craft beer in the general community and inspire the public to seek out their local artisan breweries.",
+            "established": "2015",
+            "website": "http://www.ocbrewers.org",
+            "status": "verified",
+            "statusDisplay": "Verified",
+            "createDate": "2017-06-20 22:26:03",
+            "updateDate": "2018-11-02 02:33:20"
+          }
+        ]
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 9.3
+    },
+    {
+      "id": "SjEnD9",
+      "name": "Main Brewery",
+      "streetAddress": "62 N C Street",
+      "locality": "Virginia City",
+      "region": "Nevada",
+      "postalCode": "89440",
+      "phone": "(775) 847-7064",
+      "website": "http://www.virginiacitybreweryandtaphouse.com/",
+      "hoursOfOperation": "Monday: 11:00 AM – 7:00 PM,\nTuesday: 11:00 AM – 7:00 PM,\nWednesday: 11:00 AM – 7:00 PM,\nThursday: 11:00 AM – 7:00 PM,\nFriday: 11:00 AM – 10:00 PM,\nSaturday: 11:00 AM – 10:00 PM,\nSunday: 11:00 AM – 7:00 PM",
+      "latitude": 39.3116679,
+      "longitude": -119.6494338,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2018-08-17 16:36:27",
+      "updateDate": "2018-08-17 16:36:27",
+      "hoursOfOperationNotes": "Monday: 11:00 AM – 7:00 PM,\nTuesday: 11:00 AM – 7:00 PM,\nWednesday: 11:00 AM – 7:00 PM,\nThursday: 11:00 AM – 7:00 PM,\nFriday: 11:00 AM – 10:00 PM,\nSaturday: 11:00 AM – 10:00 PM,\nSunday: 11:00 AM – 7:00 PM",
+      "breweryId": "aZdpPS",
+      "brewery": {
+        "id": "aZdpPS",
+        "name": "Virginia City Brewery & Taphouse",
+        "nameShortDisplay": "Virginia City Brewery & Taphouse",
+        "website": "http://www.virginiacitybreweryandtaphouse.com/",
+        "isOrganic": "N",
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2018-08-17 16:36:26",
+        "updateDate": "2018-11-03 01:23:15",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "LXA0QBR67G",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 17.4
+    },
+    {
+      "id": "xDW8fh",
+      "name": "Main Brewery",
+      "streetAddress": "204 E. Enterprise St.",
+      "locality": "Incline Village",
+      "region": "Nevada",
+      "postalCode": "89451",
+      "phone": "(775) 298-7001",
+      "latitude": 39.247445,
+      "longitude": -119.953499,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "restaurant",
+      "locationTypeDisplay": "Restaurant/Ale House",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2015-06-11 14:59:20",
+      "updateDate": "2015-12-03 19:07:33",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "xileIk",
+      "brewery": {
+        "id": "xileIk",
+        "name": "Alibi Ale Works",
+        "nameShortDisplay": "Alibi Ale Works",
+        "description": "Alibi Ale Works a craft brewery located in Incline Village, NV on the North Shore of Lake Tahoe. We are producing a wide range of beers with pure Lake Tahoe water, and our goal is to keep your taste buds intrigued with diverse and interesting flavors.",
+        "website": "http://www.AlibiAleWorks.com",
+        "established": "2014",
+        "mailingListUrl": "www.AlibiAleWorks.com",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/xileIk/upload_C7oKJr-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/xileIk/upload_C7oKJr-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/xileIk/upload_C7oKJr-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/xileIk/upload_C7oKJr-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/xileIk/upload_C7oKJr-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2015-06-09 17:19:16",
+        "updateDate": "2018-11-06 04:57:17",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "HRIGYD25KX",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "Y",
+        "claims": [
+          {
+            "id": 1438,
+            "userId": 6384,
+            "user": {
+              "id": 6384,
+              "firstName": "Kevin",
+              "lastName": "Drake",
+              "countryIsoCode": "US",
+              "email": "info@alibialeworks.com",
+              "sandboxAppLimit": 1,
+              "country": {
+                "isoCode": "US",
+                "name": "UNITED STATES",
+                "displayName": "United States",
+                "isoThree": "USA",
+                "numberCode": 840,
+                "createDate": "2012-01-03 02:41:33"
+              },
+              "createDate": "2015-06-09 17:15:05"
+            },
+            "breweryId": "xileIk",
+            "brewery": {
+              "id": "xileIk",
+              "name": "Alibi Ale Works",
+              "nameShortDisplay": "Alibi Ale Works",
+              "website": "http://www.AlibiAleWorks.com",
+              "images": {
+                "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/xileIk/upload_C7oKJr-icon.png",
+                "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/xileIk/upload_C7oKJr-medium.png",
+                "large": "https://brewerydb-images.s3.amazonaws.com/brewery/xileIk/upload_C7oKJr-large.png",
+                "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/xileIk/upload_C7oKJr-squareMedium.png",
+                "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/xileIk/upload_C7oKJr-squareLarge.png"
+              },
+              "status": "verified",
+              "statusDisplay": "Verified",
+              "createDate": "2015-06-09 17:19:16",
+              "updateDate": "2018-11-06 04:57:17",
+              "isInBusiness": "Y",
+              "brewersAssociation": {
+                "brewersAssocationId": "HRIGYD25KX",
+                "isCertifiedCraftBrewer": "Y"
+              },
+              "isVerified": "Y"
+            },
+            "verificationCode": "f15b9cb7f76d5fdd40a94db7d4fdf8a29c8c40c6",
+            "verifiedDate": "2015-06-09 13:26:01",
+            "createDate": "2015-06-09 17:20:45",
+            "status": "verified_claim"
+          }
+        ]
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 20.9
+    },
+    {
+      "id": "9wsPA8",
+      "name": "Main Location",
+      "streetAddress": "1496 Old Hot Springs Rd",
+      "locality": "Carson City",
+      "region": "Nevada",
+      "postalCode": "89706",
+      "latitude": 39.1929961,
+      "longitude": -119.7511224,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2017-06-21 14:07:23",
+      "updateDate": "2017-08-31 18:43:49",
+      "hoursOfOperationExplicit": {
+        "mon": [
+          {
+            "startTime": "2:00pm",
+            "endTime": "9:00pm"
+          }
+        ],
+        "tue": [
+          {
+            "startTime": "2:00pm",
+            "endTime": "9:00pm"
+          }
+        ],
+        "wed": [
+          {
+            "startTime": "2:00pm",
+            "endTime": "9:00pm"
+          }
+        ],
+        "thu": [
+          {
+            "startTime": "2:00pm",
+            "endTime": "9:00pm"
+          }
+        ],
+        "fri": [
+          {
+            "startTime": "2:00pm",
+            "endTime": "10:00pm"
+          }
+        ],
+        "sat": [
+          {
+            "startTime": "12:00pm",
+            "endTime": "10:00pm"
+          }
+        ],
+        "sun": [
+          {
+            "startTime": "12:00pm",
+            "endTime": "8:00pm"
+          }
+        ]
+      },
+      "hoursOfOperationExplicitString": "mon-2:00pm-9:00pm,tue-2:00pm-9:00pm,wed-2:00pm-9:00pm,thu-2:00pm-9:00pm,fri-2:00pm-10:00pm,sat-12:00pm-10:00pm,sun-12:00pm-8:00pm",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "uEOiyL",
+      "brewery": {
+        "id": "uEOiyL",
+        "name": "Shoe Tree Brewing Co",
+        "nameShortDisplay": "Shoe Tree",
+        "website": "http://Shoetreebrewing.com",
+        "established": "2017",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/uEOiyL/upload_H3XeG4-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/uEOiyL/upload_H3XeG4-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/uEOiyL/upload_H3XeG4-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/uEOiyL/upload_H3XeG4-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/uEOiyL/upload_H3XeG4-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2017-06-21 05:17:26",
+        "updateDate": "2018-11-03 02:24:36",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "FO89GUITRS",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "Y",
+        "claims": [
+          {
+            "id": 1292,
+            "userId": 13815,
+            "user": {
+              "id": 13815,
+              "firstName": "Douglas",
+              "lastName": "Young",
+              "countryIsoCode": "US",
+              "email": "paul@shoetreebrewing.com",
+              "sandboxAppLimit": 1,
+              "country": {
+                "isoCode": "US",
+                "name": "UNITED STATES",
+                "displayName": "United States",
+                "isoThree": "USA",
+                "numberCode": 840,
+                "createDate": "2012-01-03 02:41:33"
+              },
+              "createDate": "2017-06-21 05:18:25",
+              "updateDate": "2017-06-21 17:22:34"
+            },
+            "breweryId": "uEOiyL",
+            "brewery": {
+              "id": "uEOiyL",
+              "name": "Shoe Tree Brewing Co",
+              "nameShortDisplay": "Shoe Tree",
+              "website": "http://Shoetreebrewing.com",
+              "images": {
+                "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/uEOiyL/upload_H3XeG4-icon.png",
+                "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/uEOiyL/upload_H3XeG4-medium.png",
+                "large": "https://brewerydb-images.s3.amazonaws.com/brewery/uEOiyL/upload_H3XeG4-large.png",
+                "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/uEOiyL/upload_H3XeG4-squareMedium.png",
+                "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/uEOiyL/upload_H3XeG4-squareLarge.png"
+              },
+              "status": "verified",
+              "statusDisplay": "Verified",
+              "createDate": "2017-06-21 05:17:26",
+              "updateDate": "2018-11-03 02:24:36",
+              "isInBusiness": "Y",
+              "brewersAssociation": {
+                "brewersAssocationId": "FO89GUITRS",
+                "isCertifiedCraftBrewer": "Y"
+              },
+              "isVerified": "Y"
+            },
+            "verificationCode": "0c1378b079f342b5b6b6f6da4d1c1ae61984cb45",
+            "verifiedDate": "2017-06-21 13:49:38",
+            "createDate": "2017-06-21 17:23:33",
+            "status": "verified_claim"
+          }
+        ]
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 23.5
+    },
+    {
+      "id": "6OSDxc",
+      "name": "Main Brewery",
+      "streetAddress": "11197 Brockway Rd, Ste 1",
+      "locality": "Truckee",
+      "region": "California",
+      "postalCode": "96161",
+      "phone": "(530) 587-2337",
+      "website": "https://fiftyfiftybrewing.com/",
+      "latitude": 39.3219057,
+      "longitude": -120.1633681,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2018-04-06 21:19:24",
+      "updateDate": "2018-08-20 14:27:32",
+      "hoursOfOperationExplicit": {
+        "wed": [
+          {
+            "startTime": "11:00am",
+            "endTime": "9:00pm"
+          }
+        ],
+        "thu": [
+          {
+            "startTime": "11:00am",
+            "endTime": "9:00pm"
+          }
+        ],
+        "fri": [
+          {
+            "startTime": "11:00am",
+            "endTime": "9:00pm"
+          }
+        ],
+        "sat": [
+          {
+            "startTime": "11:00am",
+            "endTime": "9:00pm"
+          }
+        ],
+        "sun": [
+          {
+            "startTime": "11:00am",
+            "endTime": "9:00pm"
+          }
+        ],
+        "mon": [
+          {
+            "startTime": "11:00am",
+            "endTime": "9:00pm"
+          }
+        ],
+        "tue": [
+          {
+            "startTime": "11:00am",
+            "endTime": "9:00pm"
+          }
+        ]
+      },
+      "hoursOfOperationExplicitString": "wed-11:00am-9:00pm,thu-11:00am-9:00pm,fri-11:00am-9:00pm,sat-11:00am-9:00pm,sun-11:00am-9:00pm,mon-11:00am-9:00pm,tue-11:00am-9:00pm",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "fNLyn0",
+      "brewery": {
+        "id": "fNLyn0",
+        "name": "Fifty Fifty Brewing",
+        "nameShortDisplay": "Fifty Fifty",
+        "description": "Brewing incredible,\r\naward-winning beers\r\nwith unique flavors and\r\nan adventurous spirit.",
+        "website": "https://fiftyfiftybrewing.com/",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/fNLyn0/upload_AYsRUK-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/fNLyn0/upload_AYsRUK-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/fNLyn0/upload_AYsRUK-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/fNLyn0/upload_AYsRUK-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/fNLyn0/upload_AYsRUK-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2018-04-06 21:19:23",
+        "updateDate": "2018-04-11 19:39:26",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 23.5
+    },
+    {
+      "id": "ejlhsg",
+      "name": "Main Brewery",
+      "streetAddress": "11197 Brockway Road",
+      "locality": "Truckee",
+      "region": "California",
+      "postalCode": "96161",
+      "phone": "530-587-BEER",
+      "website": "http://www.fiftyfiftybrewing.com/",
+      "latitude": 39.321965,
+      "longitude": -120.163522,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "N",
+      "openToPublic": "Y",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2012-01-03 02:41:54",
+      "updateDate": "2014-07-23 19:11:34",
+      "breweryId": "NPod8S",
+      "brewery": {
+        "id": "NPod8S",
+        "name": "FiftyFifty Brewing Company",
+        "nameShortDisplay": "FiftyFifty",
+        "description": "Founded by Andy and Alicia Barr, FiftyFifty is located in Truckee at 11197 Brockway Road, between Hwy 267 and downtown Truckee. Open seven days a week from 11:30 a.m. to 2 a.m., FiftyFifty serves both lunch and dinner to complement their variety of beers brewed on the premise. FiftyFifty also features a full bar, seasonal outdoor seating on the patio and live music and entertainment.",
+        "website": "http://www.fiftyfiftybrewing.com/",
+        "established": "2006",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/NPod8S/upload_BXDwHV-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/NPod8S/upload_BXDwHV-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/NPod8S/upload_BXDwHV-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/NPod8S/upload_BXDwHV-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/NPod8S/upload_BXDwHV-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2012-01-03 02:41:54",
+        "updateDate": "2018-11-06 05:00:06",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "brewersAssociation": {
+          "brewersAssocationId": "O0H973TICJ",
+          "isCertifiedCraftBrewer": "Y"
+        },
+        "isVerified": "Y",
+        "guilds": [
+          {
+            "id": "cJio9R",
+            "name": "Brewers Association",
+            "description": "The Brewers Association is an organization of brewers, for brewers and by brewers. More than 1,300 US brewery members and 27,000 members of the American Homebrewers Association are joined by members of the allied trade, beer wholesalers, individuals, other associate members and the Brewers Association staff to make up the Brewers Association.",
+            "established": "2005",
+            "website": "http://www.brewersassociation.org/",
+            "status": "verified",
+            "statusDisplay": "Verified",
+            "createDate": "2012-01-03 02:41:33",
+            "updateDate": "2018-11-02 02:30:21",
+            "discount": "AHA Member Deals: $1 off Beer and Appetizers"
+          },
+          {
+            "id": "huKquc",
+            "name": "California Craft Brewers Association",
+            "description": "The California Craft Brewers Association is a 501(c)6 non-profit trade association representing the craft and specialty brewing industry in California.\r\n\r\nThe primary function of the CCBA is to monitor legislative activity at the state Capitol and to provide a single and coherent political voice that represents the interests of all of California's craft breweries.\r\n\r\nAdditionally, the CCBA provides a broad realm of services for the craft brewing community, which includes addressing critical business and supply issues, developing marketing campaigns that promote California produced craft beer and offering gatherings and events to help foster communication and education among our family of brewers.\r\n\r\nThe CCBA is proud to represent the rich and diverse collection of artisans and entrepreneurs that make up the family of California's small brewers.",
+            "website": "http://www.californiacraftbeer.com",
+            "status": "verified",
+            "statusDisplay": "Verified",
+            "createDate": "2012-01-03 02:41:33",
+            "updateDate": "2018-11-02 02:32:28"
+          }
+        ],
+        "claims": [
+          {
+            "id": 948,
+            "userId": 4356,
+            "user": {
+              "id": 4356,
+              "firstName": "Alicia",
+              "lastName": "Barr",
+              "countryIsoCode": "US",
+              "email": "alicia@fiftyfiftybrewing.com",
+              "sandboxAppLimit": 1,
+              "country": {
+                "isoCode": "US",
+                "name": "UNITED STATES",
+                "displayName": "United States",
+                "isoThree": "USA",
+                "numberCode": 840,
+                "createDate": "2012-01-03 02:41:33"
+              },
+              "createDate": "2014-09-10 17:43:14",
+              "updateDate": "2014-12-11 19:34:16"
+            },
+            "breweryId": "NPod8S",
+            "brewery": {
+              "id": "NPod8S",
+              "name": "FiftyFifty Brewing Company",
+              "nameShortDisplay": "FiftyFifty",
+              "website": "http://www.fiftyfiftybrewing.com/",
+              "images": {
+                "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/NPod8S/upload_BXDwHV-icon.png",
+                "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/NPod8S/upload_BXDwHV-medium.png",
+                "large": "https://brewerydb-images.s3.amazonaws.com/brewery/NPod8S/upload_BXDwHV-large.png",
+                "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/NPod8S/upload_BXDwHV-squareMedium.png",
+                "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/NPod8S/upload_BXDwHV-squareLarge.png"
+              },
+              "status": "verified",
+              "statusDisplay": "Verified",
+              "createDate": "2012-01-03 02:41:54",
+              "updateDate": "2018-11-06 05:00:06",
+              "isInBusiness": "Y",
+              "brewersAssociation": {
+                "brewersAssocationId": "O0H973TICJ",
+                "isCertifiedCraftBrewer": "Y"
+              },
+              "isVerified": "Y"
+            },
+            "verificationCode": "ce0bc9b16ab01b8c2684bc463aac4ee864a5d801",
+            "verifiedDate": "2014-12-11 14:34:34",
+            "createDate": "2014-09-10 13:45:25",
+            "status": "verified_claim"
+          }
+        ]
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 23.5
+    },
+    {
+      "id": "hgxyZC",
+      "name": "Main Brewery",
+      "streetAddress": "10091 Donner Pass",
+      "locality": "Rd Truckee",
+      "region": "California",
+      "postalCode": "96161",
+      "latitude": 39.3273066,
+      "longitude": -120.1864519,
+      "isPrimary": "Y",
+      "inPlanning": "N",
+      "isClosed": "Y",
+      "openToPublic": "N",
+      "locationType": "micro",
+      "locationTypeDisplay": "Micro Brewery",
+      "countryIsoCode": "US",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2015-08-03 14:31:24",
+      "updateDate": "2017-06-19 17:56:39",
+      "timezoneId": "America/Los_Angeles",
+      "breweryId": "JC7HXp",
+      "brewery": {
+        "id": "JC7HXp",
+        "name": "Lake Tahoe Brewing Co.",
+        "nameShortDisplay": "Lake Tahoe",
+        "website": "http://www.laketahoebeer.com/",
+        "isOrganic": "N",
+        "images": {
+          "icon": "https://brewerydb-images.s3.amazonaws.com/brewery/JC7HXp/upload_EV78AB-icon.png",
+          "medium": "https://brewerydb-images.s3.amazonaws.com/brewery/JC7HXp/upload_EV78AB-medium.png",
+          "large": "https://brewerydb-images.s3.amazonaws.com/brewery/JC7HXp/upload_EV78AB-large.png",
+          "squareMedium": "https://brewerydb-images.s3.amazonaws.com/brewery/JC7HXp/upload_EV78AB-squareMedium.png",
+          "squareLarge": "https://brewerydb-images.s3.amazonaws.com/brewery/JC7HXp/upload_EV78AB-squareLarge.png"
+        },
+        "status": "verified",
+        "statusDisplay": "Verified",
+        "createDate": "2015-08-03 00:28:31",
+        "updateDate": "2015-12-22 16:14:24",
+        "isMassOwned": "N",
+        "isInBusiness": "Y",
+        "brandClassification": "craft",
+        "isVerified": "N"
+      },
+      "country": {
+        "isoCode": "US",
+        "name": "UNITED STATES",
+        "displayName": "United States",
+        "isoThree": "USA",
+        "numberCode": 840,
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "distance": 24.3
+    }
+  ],
+  "status": "success"
+}
