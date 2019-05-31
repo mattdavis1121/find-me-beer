@@ -23,6 +23,9 @@
     <body>
         <div class="main flex-container">
             <!-- All non-map elements go here -->
+            <div id="warnings">
+
+            </div>
             <div id="sidenav" class="flex-container">
                 <div class="logo-and-controls">
                     <div class="logo-and-controls-content">
@@ -51,6 +54,21 @@
                 <div class="prompt-and-errors" data-bind="visible: promptOrErrorVisible">
                     <div class="search-prompt flex-container" data-bind="visible: promptVisible">
                         <h3>Enter a search to see nearby breweries</h3>
+                        <div class="error flex-container">
+                            <div class="error-content flex-container">
+                                <h3 class="error-message">Live App Discontinued</h3>
+                            </div>
+                            <div class="error-content">
+                                <p>As of 11/2/18, BreweryDB has removed its
+                                    free API service. For now, FindMeBeer will
+                                    remain online for reference, but it will
+                                    not function correctly.
+                                </p>
+                                <p>Please search "Reno, NV" for an example of
+                                    what a proper response looks like.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div class="errors flex-container" data-bind="foreach: errors">
                         <div class="error flex-container">

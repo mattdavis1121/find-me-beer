@@ -52,6 +52,10 @@ html, body {
 
 .search-prompt {
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
 }
 
 .errors {
@@ -68,10 +72,10 @@ html, body {
     color: #800000;
     font-size: 18px;
     border-radius: 30px;
+    flex-direction: column;
 }
 
 .error-content {
-    width: 100%;
     justify-content: space-between;
     align-items: center;
     margin: 0px 10px;
@@ -82,6 +86,9 @@ html, body {
     padding: 5px;
 }
 
+.error-content p {
+    margin-top: 0px;
+}
 
 .mobile {
     display: none;
