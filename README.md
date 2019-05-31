@@ -6,6 +6,8 @@ A brewery locator app powered by KnockoutJS, BreweryDb, and Google Maps
 
 As of 11/2/18, BreweryDB has removed its free API service. For now, FindMeBeer will remain online for reference, but it will not function correctly.
 
+To see what a proper response looks like, please search "Reno, NV." I pulled down the response data for this request and stored it locally. This is the only request which will work every time, but searching some others may work as well depending on what data BreweryDB makes available to their free-tier users.
+
 ---
 
 ### Setup
