@@ -10,7 +10,7 @@ from flask import Flask, jsonify, render_template, request
 
 app = Flask(__name__)
 
-BASE_URL = 'http://api.brewerydb.com/v2'
+BASE_URL = 'https://sandbox-api.brewerydb.com/v2/'
 API_KEY = '57c867fabb0e35e3540fe6119f029846'
 
 
