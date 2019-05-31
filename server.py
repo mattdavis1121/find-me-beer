@@ -43,6 +43,8 @@ def get_reno_data():
     filename = os.path.join(app.static_folder, 'data/reno.json')
     with open(filename) as f:
         data = json.load(f)
+    from pprint import pprint
+    pprint(data)
     return jsonify(data)
 
 
